@@ -1,1 +1,1 @@
-"""E-INFRA Python scraper package."""
+"""THALES DIS ROMANIA S.R.L. Python scraper package."""

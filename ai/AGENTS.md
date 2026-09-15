@@ -4,10 +4,10 @@ Instructions for AI agents working in this repository.
 
 ## Project
 
-Python scraper that reads job listings from the E-INFRA S.A. applytojob
-board and publishes them to peviitor.ro through the **v1 API**
-(`https://api.peviitor.ro/v1`). It is a Python port of the Node.js EPAM
-template and must follow the same API contract.
+Python scraper that reads job listings from the THALES DIS ROMANIA S.R.L.
+(Phenom-powered) careers board and publishes them to peviitor.ro through the
+**v1 API** (`https://api.peviitor.ro/v1`). It is a Python port of the Node.js
+EPAM template and must follow the same API contract.
 
 ## Commandments
 
@@ -35,7 +35,7 @@ workflow run (`gh run view ...`) from a different CWD, it returns 404 and
 the loop hangs forever. Always pass `--repo` explicitly:
 
 ```bash
-gh run view <RUN_ID> --repo ale23yfm/e-infra-sa-python-scraper --json status -q .status
+gh run view <RUN_ID> --repo elenab01234/THALES-DIS-ROMANIA-SRL-PYTHON-SCRAPER --json status -q .status
 ```
 
 If a background task is stuck, kill it immediately instead of letting it
@@ -67,7 +67,7 @@ module, file an issue and sync the fix back to the source template.
 ## Maintenance
 
 On every session: check open GitHub issues
-(`gh issue list --repo ale23yfm/e-infra-sa-python-scraper --state open`),
+(`gh issue list --repo elenab01234/THALES-DIS-ROMANIA-SRL-PYTHON-SCRAPER --state open`),
 prioritize `critical` → `bug` → `enhancement` → `documentation`, and fix
 them — commit with the issue reference and close the issue.
 
@@ -77,7 +77,7 @@ them — commit with the issue reference and close the issue.
 python3 -m pytest tests/unit tests/consistency   # fast tests (no network)
 python3 -m pytest tests/e2e                      # real board scrape
 python3 -m scraper.index                         # full scrape + publish
-python3 -m scraper.validate_jobs 38647188 --mode head  # validate job URLs
+python3 -m scraper.validate_jobs 37180822 --mode head  # validate job URLs
 ```
 
 ## Key files

@@ -4,7 +4,7 @@
 
 | File | Description |
 |------|-------------|
-| `scraper/index.py` | Main scraper - full workflow: validate company (ANAF) → scrape applytojob board → merge ANOFM → transform → upsert to peviitor v1 API → delete stale → generate `docs/jobs.md`. Entry point: `python3 -m scraper.index` |
+| `scraper/index.py` | Main scraper - full workflow: validate company (ANAF) → scrape the Thales Phenom board (embedded JSON, paginated) → merge ANOFM → transform → upsert to peviitor v1 API → delete stale → generate `docs/jobs.md`. Entry point: `python3 -m scraper.index` |
 | `scraper/api.py` | Peviitor v1 API client - `query_solr`, `upsert_company`, `upsert_jobs`, `delete_jobs_by_cif`, `delete_job_by_url` |
 | `scraper/anaf.py` | Multi-source company data module - CUIScan + demoanaf (details), demoanaf + cuifirma (search), ANAF cache fallback (`scraper/anaf_cache.json`) |
 | `scraper/job_validator.py` | Shared validation primitives - `validate_by_head`, `validate_by_content`, `validate_by_browser`, `DEFAULT_EXPIRED_KEYWORDS`. Content check strips `<script>`/`<style>` |
@@ -30,7 +30,7 @@
 | `tests/unit/test_config.py` | Unit tests - company/scraper config shape |
 | `tests/unit/test_job_validator.py` | Unit tests - head/content/browser validation |
 | `tests/integration/test_company_real.py` | Live integration - ANAF + peviitor API (skip-safe) |
-| `tests/e2e/test_scraper.py` | E2E - real applytojob board scrape (skip-safe) |
+| `tests/e2e/test_scraper.py` | E2E - real Thales Phenom board scrape (skip-safe) |
 | `tests/consistency/test_repo.py` | Verifies repo is public, has the workflows, and required topics |
 
 ## Markdown Files — ai/
@@ -80,7 +80,7 @@
 ## Notes
 
 - All operations go through the peviitor v1 API — no direct Solr access.
-- CIF `38647188` is shared with other peviitor scrapers; stale-deletion is
-  scoped to the applytojob board prefix only.
-- Full workflow: validate company (ANAF) → scrape E-INFRA board → merge
+- CIF `37180822` is shared with other peviitor scrapers; stale-deletion is
+  scoped to the Workday apply-URL prefix only.
+- Full workflow: validate company (ANAF) → scrape Thales Phenom board → merge
   ANOFM → transform → upsert → delete stale → generate `docs/jobs.md`.

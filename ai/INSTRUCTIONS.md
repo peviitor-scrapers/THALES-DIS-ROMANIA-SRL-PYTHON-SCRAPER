@@ -2,11 +2,11 @@
 
 ## Project Purpose
 
-This scraper extracts job listings for **E-INFRA S.A.** (CIF `38647188`)
-from the group's applytojob board, filtered by the `E-INFRA` department,
-and publishes them to peviitor.ro via the v1 API (`https://api.peviitor.ro/v1`).
+This scraper extracts job listings for **THALES DIS ROMANIA S.R.L.** (CIF
+`37180822`) from the Thales Phenom-powered careers board (Romania search) and
+publishes them to peviitor.ro via the v1 API (`https://api.peviitor.ro/v1`).
 
-Target: `https://electrogrup.applytojob.com/apply/jobs/?department=E-INFRA`
+Target: `https://careers.thalesgroup.com/global/en/romania-search-jobs`
 
 ## Model Schemas
 
@@ -46,13 +46,13 @@ When working on this scraper:
 
 ## Workflow Steps
 
-1. **Start with brand** — `E-INFRA`
-2. **Search in ANAF/CUIScan** — find company by CIF `38647188`
+1. **Start with brand** — `Thales`
+2. **Search in ANAF/CUIScan** — find company by CIF `37180822`
 3. **Get company details from ANAF** — fetch full company data via CUIScan → demoanaf → cache
 4. **Validate with Peviitor** — verify company exists in peviitor
 5. **Check existing jobs** — query peviitor v1 API by CIF to see what jobs exist
 6. **Check company status** — if ANAF status = INACTIVE → DELETE existing jobs and STOP
-7. **Scrape new jobs** — parse the E-INFRA applytojob board (department filter)
+7. **Scrape new jobs** — parse the Thales Phenom board (Romania search, paginate `?from=`)
 8. **Transform for API** — validate and fix job data:
    - location: only Romanian cities allowed (fallback `["România"]`)
    - workmode: `remote` / `on-site` / `hybrid`
@@ -69,7 +69,7 @@ python3 -m scraper.index
 
 > **Important**: The scraper does NOT delete jobs from other sources
 > (ANOFM, jobviewtrack, ejobs, olx, multijobs, targuldecariere). Stale
-> deletion is scoped to the applytojob board URL prefix only, so jobs
+> deletion is scoped to the Workday apply-URL prefix only, so jobs
 > published by other scrapers under the shared CIF are preserved.
 
 ## Full Workflow (automatic)
@@ -79,12 +79,12 @@ When running `python3 -m scraper.index`, the following steps happen automaticall
 1. **Check existing jobs count** — query peviitor v1 API by CIF (read-only)
 2. **Validate company via ANAF** — check company exists and is active
 3. **Upsert company core** — with `scraperFile` pointing to our workflow
-4. **Scrape jobs** — parse the E-INFRA applytojob board
+4. **Scrape jobs** — parse the Thales Phenom board (Romania search)
 5. **Merge ANOFM jobs** — unless `--test`
 6. **Transform for API** — fix locations (only Romanian cities), normalize workmode
 7. **Generate files** — `scraper/jobs.json`, `docs/jobs.md`, `docs/company.json`
 8. **Upsert to API** — add/update jobs (API handles duplicates by URL)
-9. **Delete stale jobs** — remove applytojob-board jobs no longer on the site
+9. **Delete stale jobs** — remove Phenom-board jobs no longer on the site
 10. **Show Summary** — log job counts
 
 ## Workflow Flowchart
@@ -105,7 +105,7 @@ company.py / anaf.py (validate company)
     ├── anaf_cache.json ──► fallback if APIs fail
     │
     ▼ (if active)
-scrape applytojob board (?department=E-INFRA)
+scrape Phenom board pages (romania-search-jobs, ?from=N&s=1)
     │
     ▼
 transform_jobs_for_solr()
@@ -117,7 +117,7 @@ transform_jobs_for_solr()
 upsert_jobs() - API handles duplicate by URL
     │
     ▼
-delete stale applytojob-board URLs
+delete stale Workday apply-URLs
     │
     ▼
 generate_jobs_markdown() → docs/jobs.md
@@ -140,12 +140,12 @@ See `ai/files.md` for the full file map. Key files:
 | `scraper/markdown_generator.py` | Generates `docs/jobs.md` |
 | `tests/unit/*` | Unit tests for index/api/anaf/config/job_validator |
 | `tests/integration/test_company_real.py` | Live integration — ANAF + peviitor API |
-| `tests/e2e/test_scraper.py` | E2E — real applytojob board scrape |
+| `tests/e2e/test_scraper.py` | E2E — real Thales Phenom board scrape |
 | `tests/consistency/test_repo.py` | Repo identity, root files, workflow naming |
 
 ## API Endpoints
 
-- **Applytojob board**: `https://electrogrup.applytojob.com/apply/jobs/?department=E-INFRA` — listing HTML
+- **Phenom board**: `https://careers.thalesgroup.com/global/en/romania-search-jobs` — job data embedded in the page as JSON (`phApp.ddo.eagerLoadRefineSearch.data.jobs`), paginated via `?from=0&s=1`, `?from=10&s=1`, …
 - **ANOFM search**: `https://mediere.anofm.ro/api/entity/vw_public_job_posting` — POST by `employer_tax_code`
 - **CUIScan**: `https://cuiscan.ro/api.php?action=company&cui=CIF` — company details fallback
 - **DemoANAF**: `https://demoanaf.ro/api/company/:cui` — company details fallback
@@ -183,14 +183,14 @@ python3 -m scraper.index
 python3 -m scraper.index --test
 
 # Query jobs in peviitor by CIF (read-only verify; add --delete to remove
-# invalid board URLs — deletion is scoped to the applytojob board prefix,
+# invalid board URLs — deletion is scoped to the Workday apply-URL prefix,
 # so jobs from other scrapers under a shared CIF are never touched)
-python3 -m scraper.api 38647188
+python3 -m scraper.api 37180822
 
 # Validate job URLs from peviitor by CIF (head/content/browser)
-python3 -m scraper.validate_jobs 38647188 --mode head
-python3 -m scraper.validate_jobs 38647188 --mode content --dry-run
-python3 -m scraper.validate_jobs 38647188 --mode content --delete
+python3 -m scraper.validate_jobs 37180822 --mode head
+python3 -m scraper.validate_jobs 37180822 --mode content --dry-run
+python3 -m scraper.validate_jobs 37180822 --mode content --delete
 ```
 
 ## Testing

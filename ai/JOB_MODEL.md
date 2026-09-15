@@ -49,10 +49,10 @@ Standardized job document published to peviitor SOLR.
 
 ```json
 {
-  "url": "https://electrogrup.applytojob.com/apply/jobs/details/bClwIJnZdv",
-  "title": "Inginer Ofertare Energetic",
-  "company": "E-INFRA S.A.",
-  "cif": "38647188",
+  "url": "https://thales.wd3.myworkdayjobs.com/Careers/job/R-XXXXX",
+  "title": "Inginer",
+  "company": "THALES DIS ROMANIA S.R.L.",
+  "cif": "37180822",
   "location": ["Bucuresti"],
   "workmode": "on-site",
   "date": "2026-08-03T00:00:00Z",

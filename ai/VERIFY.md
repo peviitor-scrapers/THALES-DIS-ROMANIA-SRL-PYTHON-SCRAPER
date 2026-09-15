@@ -13,10 +13,10 @@ Expect: all green, no network needed.
 ## Live — company
 
 ```bash
-python3 -c "from scraper.anaf import get_company_from_anaf; print(get_company_from_anaf('38647188'))"
+python3 -c "from scraper.anaf import get_company_from_anaf; print(get_company_from_anaf('37180822'))"
 ```
 
-Expect: `denumire == "E-INFRA S.A."`, `cif == "38647188"`.
+Expect: `denumire == "THALES DIS ROMANIA S.R.L."`, `cif == "37180822"`.
 
 ## Live — board
 
@@ -24,17 +24,17 @@ Expect: `denumire == "E-INFRA S.A."`, `cif == "38647188"`.
 python3 -m pytest tests/e2e
 ```
 
-Expect: `>= 1` jobs scraped, unique URLs, titles present, E-INFRA department filter.
+Expect: `>= 1` jobs scraped, unique URLs, titles present, Romania-filtered board.
 
 ## Live — peviitor SOLR
 
 ```bash
-curl "https://api.peviitor.ro/v1/scraper/jobs/?cif=38647188&rows=500"
+curl "https://api.peviitor.ro/v1/scraper/jobs/?cif=37180822&rows=500"
 ```
 
-Expect: `success: true`. Note CIF `38647188` is shared with other peviitor
+Expect: `success: true`. Note CIF `37180822` is shared with other peviitor
 scrapers (jobviewtrack, ejobs, olx, multijobs, targuldecariere), so the
-total count includes their jobs; confirm the scraped applytojob board URLs
+total count includes their jobs; confirm the scraped Workday apply-URLs
 are present.
 
 ## Full pipeline
@@ -53,11 +53,11 @@ Then check:
 ## GitHub Pages
 
 ```bash
-gh api repos/ale23yfm/e-infra-sa-python-scraper/pages --jq .html_url
-curl -s -o /dev/null -w "%{http_code}\n" https://ale23yfm.github.io/e-infra-sa-python-scraper/
+gh api repos/elenab01234/THALES-DIS-ROMANIA-SRL-PYTHON-SCRAPER/pages --jq .html_url
+curl -s -o /dev/null -w "%{http_code}\n" https://elenab01234.github.io/THALES-DIS-ROMANIA-SRL-PYTHON-SCRAPER/
 ```
 
-Expect: `https://ale23yfm.github.io/e-infra-sa-python-scraper/` and HTTP `200`.
+Expect: `https://elenab01234.github.io/THALES-DIS-ROMANIA-SRL-PYTHON-SCRAPER/` and HTTP `200`.
 The site is built from `docs/` on `main` (source: branch `main`, path `/docs`).
 
 ## GitHub Actions
@@ -72,7 +72,7 @@ For each workflow in `.github/workflows/`, run it from **Actions** → *Run work
 After a successful run, verify via API that the company jobs appear:
 
 ```bash
-curl -s "https://api.peviitor.ro/v1/scraper/jobs/?cif=38647188&rows=500"
+curl -s "https://api.peviitor.ro/v1/scraper/jobs/?cif=37180822&rows=500"
 ```
 
-Check `docs/jobs.md` was regenerated and jobs are visible on https://peviitor.ro (CIF `38647188`).
+Check `docs/jobs.md` was regenerated and jobs are visible on https://peviitor.ro (CIF `37180822`).

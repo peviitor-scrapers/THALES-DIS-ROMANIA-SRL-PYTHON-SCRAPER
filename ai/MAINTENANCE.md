@@ -5,7 +5,7 @@
 Before any work, check open issues and fix them:
 
 ```bash
-gh issue list --repo ale23yfm/e-infra-sa-python-scraper --state open
+gh issue list --repo elenab01234/THALES-DIS-ROMANIA-SRL-PYTHON-SCRAPER --state open
 ```
 
 Prioritize `critical` → `bug` → `enhancement` → `documentation`. For each
@@ -24,20 +24,20 @@ appropriate, and move on.
 - Validate job URLs periodically:
 
 ```bash
-python3 -m scraper.validate_jobs 38647188 --mode content --dry-run
-python3 -m scraper.validate_jobs 38647188 --mode content --delete
+python3 -m scraper.validate_jobs 37180822 --mode content --dry-run
+python3 -m scraper.validate_jobs 37180822 --mode content --delete
 ```
 
 ## Board structure changes
 
-If `parse_api_jobs` returns 0 or few jobs, inspect the applytojob page:
+If `parse_api_jobs` returns 0 or few jobs, inspect the Phenom board page:
 
 ```bash
-curl -s "https://electrogrup.applytojob.com/apply/jobs/?department=E-INFRA"
+curl -s "https://careers.thalesgroup.com/global/en/romania-search-jobs"
 ```
 
-Update the parser selectors in `scraper/index.py` (`a.job_title_link`,
-`tr/td`) and the expected count in `tests/e2e/test_scraper.py`.
+Update the parser selectors in `scraper/index.py` (`phApp.ddo` embedded JSON
+pagination) and the expected count in `tests/e2e/test_scraper.py`.
 
 ## Company data changes
 

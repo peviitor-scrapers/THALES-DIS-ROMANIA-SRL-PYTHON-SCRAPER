@@ -29,10 +29,15 @@ def test_company_config_id_is_numeric(company_config):
     assert company_config["id"].isdigit()
 
 
+def test_company_config_is_thales(company_config):
+    assert company_config["id"] == "37180822"
+    assert "THALES" in company_config["company"]
+
+
 def test_scraper_config_shape(scraper_config):
-    assert scraper_config["apiBase"] == "https://electrogrup.applytojob.com"
-    assert scraper_config["apiPath"] == "/apply/jobs"
-    assert scraper_config["department"]
+    assert scraper_config["apiBase"] == "https://careers.thalesgroup.com/global/en"
+    assert scraper_config["apiPath"] == "/romania-search-jobs"
+    assert "myworkdayjobs.com" in scraper_config["jobDetailsPrefix"]
 
 
 def test_configs_are_json_files():

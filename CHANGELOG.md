@@ -4,6 +4,28 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.1.0] - 2026-09-15
+
+### Added
+- Adapted the scraper to **THALES DIS ROMANIA S.R.L.** (CIF `37180822`).
+- Jobs source: Thales Phenom-powered careers board — Romania search
+  (`https://careers.thalesgroup.com/global/en/romania-search-jobs`), job data
+  embedded in HTML as `phApp.ddo` JSON, paginated via `?from=N&s=1`.
+- Canonical job URLs use the Workday apply path
+  (`https://thales.wd3.myworkdayjobs.com/Careers/job/...`).
+
+### Changed
+- `scraper/config/company.json` and `scraper/config/scraper.json` updated for
+  THALES DIS ROMANIA S.R.L.
+- `scraper/index.py` rewritten to parse the Phenom embedded JSON instead of
+  applytojob HTML.
+- README, CONTRIBUTING, AI docs, unit/e2e/consistency tests updated to the
+  new company and board.
+
+### Removed
+- applytojob parsing (`a.job_title_link`, `tr/td` selectors) and the
+  `?department=E-INFRA` filter.
+
 ## [1.0.0] - 2026-08-03
 
 ### Added
@@ -19,5 +41,5 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ### Fixed
 - Location normalization: common spellings (`Bucuresti`, `Turda`, etc.) and case/diacritic variants are no longer dropped to `România`.
-- Stale-job deletion is scoped to this scraper's applytojob board, so jobs published by other peviitor scrapers under the same CIF are never removed.
+- Stale-job deletion is scoped to this scraper's board, so jobs published by other peviitor scrapers under the same CIF are never removed.
 - E2E `EXPECTED_MIN_JOBS` and integration tests reflect the E-INFRA department and CIF `38647188`.

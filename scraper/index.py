@@ -1,9 +1,10 @@
 """
-E-INFRA S.A. applytojob Scraper — derived from the ELECTROGRUP Python template.
+THALES DIS ROMANIA S.R.L. Phenom Scraper
 
-Scrapes E-INFRA job listings from the group applytojob board (electrogrup.applytojob.com) filtered by
-department, validates the company via ANAF, and publishes jobs/company data
-to peviitor.ro through the v1 API (api.peviitor.ro/v1) — no direct Solr access.
+Scrapes THALES DIS ROMANIA S.R.L. job listings from the Thales careers
+Phenom-powered board (careers.thalesgroup.com) and publishes them to
+peviitor.ro through the v1 API (api.peviitor.ro/v1) — no direct Solr
+access.
 """
 
 import datetime
@@ -14,7 +15,6 @@ import sys
 import time
 
 import requests
-from bs4 import BeautifulSoup
 
 from .anaf import search_anofm
 from .api import delete_job_by_url, delete_jobs_by_cif, query_solr, upsert_company, upsert_jobs
@@ -22,35 +22,60 @@ from .company import validate_and_get_company
 from .config import company_config, scraper_config
 from .markdown_generator import generate_jobs_markdown
 
-TIMEOUT = 10
+TIMEOUT = 15
 HEADERS = {"User-Agent": "job_seeker_ro_spider"}
 
 COMPANY_CIF = company_config["id"]
 API_BASE = scraper_config["apiBase"]
 API_PATH = scraper_config["apiPath"]
-DEPARTMENT = scraper_config["department"]
+JOB_DETAILS_PREFIX = scraper_config["jobDetailsPrefix"]
 
 COMPANY_NAME = None
 
-# Jobs stored in SOLR under this CIF may be published by other peviitor
-# scrapers (aggregators). Stale deletion must only ever touch jobs that this
-# scraper itself published (i.e. URLs on the group's applytojob board), so we
-# scope it to this prefix instead of the whole CIF.
-JOB_DETAILS_PREFIX = f"{API_BASE}/apply/jobs/details/"
+_PHENOM_JOBS_RE = re.compile(
+    r"phApp\.ddo\s*=\s*(\{.*?\});\s*phApp\.experimentData", re.S
+)
 
 
-def build_listing_url():
-    """Builds the applytojob listing URL with the company department filter."""
-    return f"{API_BASE}{API_PATH}/?department={DEPARTMENT}"
+def build_listing_url(offset=0):
+    """Builds the Phenom search landing-page URL."""
+    url = f"{API_BASE}{API_PATH}"
+    if offset > 0:
+        url = f"{url}?from={offset}&s=1"
+    return url
 
 
 def build_job_url(job_id):
-    """Builds the canonical job detail URL (no query string)."""
-    return f"{API_BASE}/apply/jobs/details/{job_id}"
+    """Builds the Workday apply URL from a Thales reqId (e.g. R0330940)."""
+    return f"{JOB_DETAILS_PREFIX}{job_id}"
 
 
-def extract_location(location_text):
-    """Extracts the city from a location string like 'Bucuresti, Bucuresti, Romania'."""
+def _parse_jobs_from_page(html):
+    """Extracts jobs from the embedded ``phApp.ddo`` JSON in a Phenom page."""
+    m = _PHENOM_JOBS_RE.search(html)
+    if not m:
+        return [], None
+    ddo = json.loads(m.group(1))
+    refine = ddo.get("eagerLoadRefineSearch") or {}
+    data = refine.get("data") or {}
+    total = refine.get("totalHits")
+    return data.get("jobs", []), total
+
+
+def _map_raw_job(phenom_job):
+    """Maps a raw Phenom job object to the internal raw-job dict."""
+    city = phenom_job.get("city") or phenom_job.get("workLocation") or "Romania"
+    return {
+        "url": phenom_job.get("applyUrl") or build_job_url(phenom_job["reqId"]),
+        "title": (phenom_job.get("title") or "").strip(),
+        "location": _extract_location(city),
+        "date": phenom_job.get("postedDate"),
+    }
+
+
+def _extract_location(location_text):
+    """Extracts the city from a location string like 'Bucharest' or
+    'Bucharest, 060071'."""
     if not location_text:
         return []
     first = location_text.split(",")[0].strip()
@@ -62,71 +87,62 @@ def extract_location(location_text):
 
 
 def parse_api_jobs(html):
-    """Parses the applytojob board HTML into raw job dicts."""
-    soup = BeautifulSoup(html, "html.parser")
-    jobs = []
-    seen_ids = set()
-
-    for link in soup.find_all("a", class_="job_title_link"):
-        href = link.get("href") or ""
-        m = re.search(r"/details/([^/?]+)", href)
-        if not m:
-            continue
-        job_id = m.group(1)
-        if job_id in seen_ids:
-            continue
-        seen_ids.add(job_id)
-
-        title = link.get_text(strip=True)
-        location = "România"
-
-        row = link.find_parent("tr")
-        if row:
-            cells = row.find_all("td")
-            if len(cells) > 1:
-                location = cells[1].get_text(strip=True) or location
-        else:
-            loc_tag = link.find_parent("div", class_="row_job")
-            if loc_tag:
-                span = loc_tag.find("span", class_="resumator_description")
-                if span and "Location:" in span.get_text():
-                    location = span.get_text().replace("Location:", "").strip()
-
-        jobs.append({
-            "url": build_job_url(job_id),
-            "title": title,
-            "location": extract_location(location),
-        })
-
-    return jobs
+    """Parses a single Phenom page HTML into raw job dicts."""
+    jobs_phenom, _ = _parse_jobs_from_page(html)
+    return [_map_raw_job(j) for j in jobs_phenom if j.get("reqId")]
 
 
-def fetch_listing():
-    """Fetches the board HTML for the company department."""
-    url = build_listing_url()
+def fetch_listing(url):
+    """Fetches a single board page and returns its HTML."""
     res = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
     if res.status_code != 200:
         raise RuntimeError(f"Listing error: {res.status_code} for {url}")
     return res.text
 
 
+def scrape_all_listings():
+    """Fetches all Romania job pages from the Phenom board and returns
+    de-duplicated raw job dicts."""
+    seen_ids = set()
+    raw_jobs = []
+    total_hits = None
+    for offset in range(0, 200, 10):
+        url = build_listing_url(offset)
+        html = fetch_listing(url)
+        jobs_phenom, total = _parse_jobs_from_page(html)
+        if total is not None:
+            total_hits = total
+        page_new = 0
+        for j in jobs_phenom:
+            rid = j.get("reqId")
+            if not rid or rid in seen_ids:
+                continue
+            seen_ids.add(rid)
+            raw_jobs.append(_map_raw_job(j))
+            page_new += 1
+        if page_new == 0 or (total_hits and len(raw_jobs) >= total_hits):
+            break
+        time.sleep(1)
+    return raw_jobs
+
+
 def map_to_job_model(raw_job, cif, company_name=None):
     """Maps a raw job dict to the standardized job model."""
     now = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    date = raw_job.get("date") or now
+    m = re.match(r"(\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2})(?:\.\d+)?(?:Z|[+-]\d{4})?$", date)
+    if m:
+        date = m.group(1) + "Z"
     job = {
         "url": raw_job["url"],
         "title": raw_job["title"],
         "company": company_name or COMPANY_NAME,
         "cif": cif,
-        "date": now,
+        "date": date,
         "status": "scraped",
     }
     if raw_job.get("location"):
         job["location"] = raw_job["location"]
-    if raw_job.get("workmode"):
-        job["workmode"] = raw_job["workmode"]
-    if raw_job.get("tags"):
-        job["tags"] = raw_job["tags"]
     return job
 
 
@@ -196,12 +212,6 @@ def transform_jobs_for_solr(payload):
     return {**payload, "company": company, "jobs": transformed_jobs}
 
 
-def scrape_all_listings():
-    """Fetches and parses all jobs for the company department."""
-    html = fetch_listing()
-    return parse_api_jobs(html)
-
-
 def main(root=None):
     test_only_one_page = "--test" in sys.argv
     root = root or pathlib.Path(__file__).resolve().parents[1]
@@ -241,9 +251,10 @@ def main(root=None):
     except Exception as err:
         print(f"Note: Could not upsert company: {err}")
 
+    print("=== Step 3: Scrape THALES DIS ROMANIA S.R.L. jobs from Phenom board ===")
     raw_jobs = scrape_all_listings()
     scraped_count = len(raw_jobs)
-    print(f"Jobs scraped from the E-INFRA applytojob board: {scraped_count}")
+    print(f"Jobs scraped from the Thales Phenom board: {scraped_count}")
 
     if not test_only_one_page:
         anofm_jobs = search_anofm(validated["cif"])
@@ -258,7 +269,7 @@ def main(root=None):
     jobs = [map_to_job_model(job, validated["cif"]) for job in raw_jobs]
 
     payload = {
-        "source": "electrogrup.applytojob.com",
+        "source": "careers.thalesgroup.com",
         "scrapedAt": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "company": COMPANY_NAME,
         "cif": validated["cif"],
@@ -272,7 +283,6 @@ def main(root=None):
 
     root = root or pathlib.Path(__file__).resolve().parents[1]
 
-    # jobs.json
     jobs_path = root / "scraper" / "jobs.json"
     jobs_path.parent.mkdir(parents=True, exist_ok=True)
     jobs_path.write_text(
@@ -323,7 +333,7 @@ def main(root=None):
     final_result = query_solr(COMPANY_CIF)
     print(f"\n=== SUMMARY ===")
     print(f"Jobs existing in SOLR before scrape: {existing_count}")
-    print(f"Jobs scraped from the E-INFRA applytojob board: {scraped_count}")
+    print(f"Jobs scraped from the Thales Phenom board: {scraped_count}")
     print(f"Stale jobs attempted: {len(stale_urls)}")
     print(f"Jobs in SOLR after scrape: {final_result['numFound']}")
     print(f"====================")
