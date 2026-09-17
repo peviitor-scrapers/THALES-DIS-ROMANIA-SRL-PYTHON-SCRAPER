@@ -8,9 +8,9 @@
 | Brand | Thales |
 | Website | https://www.thalesgroup.com |
 | Career | https://careers.thalesgroup.com/global/en/romania-search-jobs |
-| LastScraped | 2026-09-15 |
+| LastScraped | 2026-09-17 |
 
-## Jobs (28)
+## Jobs (31)
 
 ### Team Manager - Software Engineering for Defence Naval Business
 
@@ -72,12 +72,6 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### Senior DBA Engineer - with Cassandra
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest/Senior-DBA-Engineer---with-Cassandra_R0330589/apply](https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest/Senior-DBA-Engineer---with-Cassandra_R0330589/apply)
-- **Location**: Bucharest
-- **Status**: scraped
-
 ### Senior Network Administrator with French
 
 - **URL**: [https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest/Senior-Network-Administrator-with-French_R0314433/apply](https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest/Senior-Network-Administrator-with-French_R0314433/apply)
@@ -87,6 +81,12 @@
 ### Infrastructure Engineer (with DevOps skills)
 
 - **URL**: [https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest/Infrastructure-Engineer--with-DevOps-skills-_R0336201-1/apply](https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest/Infrastructure-Engineer--with-DevOps-skills-_R0336201-1/apply)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### Senior DBA Engineer - with Cassandra
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest/Senior-DBA-Engineer---with-Cassandra_R0330589/apply](https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest/Senior-DBA-Engineer---with-Cassandra_R0330589/apply)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -102,63 +102,15 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### MID FullStack Java & Angular (B1 French) – Shape Global Innovation
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest/Elite-Fullstack-Engineer--B1-French---Shape-Global-Innovation_R0331165/apply](https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest/Elite-Fullstack-Engineer--B1-French---Shape-Global-Innovation_R0331165/apply)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### Full-Stack Developer (Node/Angular/React) | Code for Critical Systems, Not Clicks
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest-Orhideea/Full-Stack-Developer--Node-Angular-React----Code-for-Critical-Systems--Not-Clicks_R0333972/apply](https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest-Orhideea/Full-Stack-Developer--Node-Angular-React----Code-for-Critical-Systems--Not-Clicks_R0333972/apply)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### System Integration & Test Engineer (IVVQ) | The Last Line Before Software Meets Reality
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest-Orhideea/System-Integration---Test-Engineer--IVVQ----The-Last-Line-Before-Software-Meets-Reality_R0333982/apply](https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest-Orhideea/System-Integration---Test-Engineer--IVVQ----The-Last-Line-Before-Software-Meets-Reality_R0333982/apply)
-- **Location**: Bucharest
-- **Status**: scraped
-
 ### DevOps Engineer | Ship Software That Can't Afford to Break
 
 - **URL**: [https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest-Orhideea/DevOps-Engineer---Ship-Software-That-Can-t-Afford-to-Break_R0333964/apply](https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest-Orhideea/DevOps-Engineer---Ship-Software-That-Can-t-Afford-to-Break_R0333964/apply)
 - **Location**: Bucharest
 - **Status**: scraped
 
-### Network SRE — Bucharest Sovereign Cloud Hub
+### MID FullStack Java & Angular (B1 French) – Shape Global Innovation
 
-- **URL**: [https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest/Network-SRE---Bucharest-Sovereign-Cloud-Hub_R0332896/apply](https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest/Network-SRE---Bucharest-Sovereign-Cloud-Hub_R0332896/apply)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### Data Engineer | Pipelines With a Mission (AI Track Inside)
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest-Orhideea/Data-Engineer---Pipelines-With-a-Mission--AI-Track-Inside-_R0333978-1/apply](https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest-Orhideea/Data-Engineer---Pipelines-With-a-Mission--AI-Track-Inside-_R0333978-1/apply)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### AI / Machine Learning Engineer | Models That Guide Missions, Not Ads
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest-Orhideea/AI---Machine-Learning-Engineer---Models-That-Guide-Missions--Not-Ads_R0333980-1/apply](https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest-Orhideea/AI---Machine-Learning-Engineer---Models-That-Guide-Missions--Not-Ads_R0333980-1/apply)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### Delivery Manager | Run Programs That Outlast Product Cycles
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest-Orhideea/Delivery-Manager---Run-Programs-That-Outlast-Product-Cycles_R0333985/apply](https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest-Orhideea/Delivery-Manager---Run-Programs-That-Outlast-Product-Cycles_R0333985/apply)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### Product Owner | Your Backlog Guides Air Traffic
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest-Orhideea/Product-Owner---Your-Backlog-Guides-Air-Traffic_R0333984/apply](https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest-Orhideea/Product-Owner---Your-Backlog-Guides-Air-Traffic_R0333984/apply)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### IT & Cloud Ops Engineer | Sovereign Cloud, Real Stakes
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest-Orhideea/IT---Cloud-Ops-Engineer---Sovereign-Cloud--Real-Stakes_R0333975/apply](https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest-Orhideea/IT---Cloud-Ops-Engineer---Sovereign-Cloud--Real-Stakes_R0333975/apply)
+- **URL**: [https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest/Elite-Fullstack-Engineer--B1-French---Shape-Global-Innovation_R0331165/apply](https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest/Elite-Fullstack-Engineer--B1-French---Shape-Global-Innovation_R0331165/apply)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -180,5 +132,71 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
+### GIS Engineer / Software Developer (Python, DevOps, DB Knowledge)
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest/GIS-Engineer---Software-Developer--Python--DevOps--DB-Knowledge-_R0332453/apply](https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest/GIS-Engineer---Software-Developer--Python--DevOps--DB-Knowledge-_R0332453/apply)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### Network SRE — Bucharest Sovereign Cloud Hub
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest/Network-SRE---Bucharest-Sovereign-Cloud-Hub_R0332896/apply](https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest/Network-SRE---Bucharest-Sovereign-Cloud-Hub_R0332896/apply)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### AI / Machine Learning Engineer | Models That Guide Missions, Not Ads
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest-Orhideea/AI---Machine-Learning-Engineer---Models-That-Guide-Missions--Not-Ads_R0333980-1/apply](https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest-Orhideea/AI---Machine-Learning-Engineer---Models-That-Guide-Missions--Not-Ads_R0333980-1/apply)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### System Integration & Test Engineer (IVVQ) | The Last Line Before Software Meets Reality
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest-Orhideea/System-Integration---Test-Engineer--IVVQ----The-Last-Line-Before-Software-Meets-Reality_R0333982/apply](https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest-Orhideea/System-Integration---Test-Engineer--IVVQ----The-Last-Line-Before-Software-Meets-Reality_R0333982/apply)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### Data Engineer | Pipelines With a Mission (AI Track Inside)
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest-Orhideea/Data-Engineer---Pipelines-With-a-Mission--AI-Track-Inside-_R0333978-1/apply](https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest-Orhideea/Data-Engineer---Pipelines-With-a-Mission--AI-Track-Inside-_R0333978-1/apply)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### Product Owner | Your Backlog Guides Air Traffic
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest-Orhideea/Product-Owner---Your-Backlog-Guides-Air-Traffic_R0333984/apply](https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest-Orhideea/Product-Owner---Your-Backlog-Guides-Air-Traffic_R0333984/apply)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### Delivery Manager | Run Programs That Outlast Product Cycles
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest-Orhideea/Delivery-Manager---Run-Programs-That-Outlast-Product-Cycles_R0333985/apply](https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest-Orhideea/Delivery-Manager---Run-Programs-That-Outlast-Product-Cycles_R0333985/apply)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### Full-Stack Developer (Node/Angular/React) | Code for Critical Systems, Not Clicks
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest-Orhideea/Full-Stack-Developer--Node-Angular-React----Code-for-Critical-Systems--Not-Clicks_R0333972/apply](https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest-Orhideea/Full-Stack-Developer--Node-Angular-React----Code-for-Critical-Systems--Not-Clicks_R0333972/apply)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### Enabling SRE — Bucharest Sovereign Cloud Hub
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest/Enabling-SRE---Bucharest-Sovereign-Cloud-Hub_R0332892/apply](https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest/Enabling-SRE---Bucharest-Sovereign-Cloud-Hub_R0332892/apply)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### Java Developer | Build Systems That Guide Aircraft, Not Ads
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest-Orhideea/Java-Developer---Build-Systems-That-Guide-Aircraft--Not-Ads_R0333971/apply](https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest-Orhideea/Java-Developer---Build-Systems-That-Guide-Aircraft--Not-Ads_R0333971/apply)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### IT & Cloud Ops Engineer | Sovereign Cloud, Real Stakes
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest-Orhideea/IT---Cloud-Ops-Engineer---Sovereign-Cloud--Real-Stakes_R0333975/apply](https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest-Orhideea/IT---Cloud-Ops-Engineer---Sovereign-Cloud--Real-Stakes_R0333975/apply)
+- **Location**: Bucharest
+- **Status**: scraped
+
 ---
-_Generated at 2026-09-15T15:47:23Z_
+_Generated at 2026-09-17T10:31:54Z_
