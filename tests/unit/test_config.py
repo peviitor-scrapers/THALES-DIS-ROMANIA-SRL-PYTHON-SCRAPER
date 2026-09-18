@@ -38,6 +38,7 @@ def test_scraper_config_shape(scraper_config):
     assert scraper_config["apiBase"] == "https://careers.thalesgroup.com/global/en"
     assert scraper_config["apiPath"] == "/romania-search-jobs"
     assert "myworkdayjobs.com" in scraper_config["jobDetailsPrefix"]
+    assert "/en-US/Careers/details/" in scraper_config["jobDetailsPrefix"]
 
 
 def test_configs_are_json_files():

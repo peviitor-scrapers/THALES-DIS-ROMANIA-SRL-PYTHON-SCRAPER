@@ -30,7 +30,7 @@ def test_scrape_real_board():
     jobs = index.scrape_all_listings()
     assert len(jobs) >= EXPECTED_MIN_JOBS, f"Expected >= {EXPECTED_MIN_JOBS} jobs, got {len(jobs)}"
     for job in jobs:
-        assert job["url"].startswith("https://thales.wd3.myworkdayjobs.com/Careers/job/")
+        assert job["url"].startswith("https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/")
         assert job["title"]
     urls = {j["url"] for j in jobs}
     assert len(urls) == len(jobs), "duplicate job URLs found"

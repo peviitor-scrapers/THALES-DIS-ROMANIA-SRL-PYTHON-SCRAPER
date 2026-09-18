@@ -34,7 +34,7 @@ curl "https://api.peviitor.ro/v1/scraper/jobs/?cif=37180822&rows=500"
 
 Expect: `success: true`. Note CIF `37180822` is shared with other peviitor
 scrapers (jobviewtrack, ejobs, olx, multijobs, targuldecariere), so the
-total count includes their jobs; confirm the scraped Workday apply-URLs
+total count includes their jobs; confirm the scraped Workday details-URLs
 are present.
 
 ## Full pipeline

@@ -99,7 +99,7 @@ def test_check_url_redirect_invalid(mock_head):
     assert result["valid"] is False
 
 
-BOARD = "https://thales.wd3.myworkdayjobs.com/Careers/job/"
+BOARD = "https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/"
 
 
 def test_run_verification_read_only_by_default(monkeypatch, capsys):

@@ -45,9 +45,23 @@ def build_listing_url(offset=0):
     return url
 
 
-def build_job_url(job_id):
-    """Builds the Workday apply URL from a Thales reqId (e.g. R0330940)."""
-    return f"{JOB_DETAILS_PREFIX}{job_id}"
+def _slugify(title):
+    """Builds the Workday URL alias: the title before its first ' - ' / ' – '
+    / ' — ' / ' | ' separator, with runs of non-alphanumeric chars collapsed
+    to single hyphens (e.g. 'Java Software Engineer - Naval Business' →
+    'Java-Software-Engineer')."""
+    t = (title or "").strip()
+    m = re.search(r"\s+(?:—|–|-|\|)\s+", t)
+    if m:
+        t = t[: m.start()]
+    return re.sub(r"[^A-Za-z0-9]+", "-", t).strip("-")
+
+
+def build_job_url(job_title, job_id):
+    """Builds the canonical Workday details URL from a Thales reqId
+    (e.g. R0161685), NOT the apply URL:
+    https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/{slug}_{reqId}"""
+    return f"{JOB_DETAILS_PREFIX}{_slugify(job_title)}_{job_id}"
 
 
 def _parse_jobs_from_page(html):
@@ -66,7 +80,7 @@ def _map_raw_job(phenom_job):
     """Maps a raw Phenom job object to the internal raw-job dict."""
     city = phenom_job.get("city") or phenom_job.get("workLocation") or "Romania"
     return {
-        "url": phenom_job.get("applyUrl") or build_job_url(phenom_job["reqId"]),
+        "url": build_job_url(phenom_job.get("title"), phenom_job["reqId"]),
         "title": (phenom_job.get("title") or "").strip(),
         "location": _extract_location(city),
         "date": phenom_job.get("postedDate"),

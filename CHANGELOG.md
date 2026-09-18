@@ -11,8 +11,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Jobs source: Thales Phenom-powered careers board — Romania search
   (`https://careers.thalesgroup.com/global/en/romania-search-jobs`), job data
   embedded in HTML as `phApp.ddo` JSON, paginated via `?from=N&s=1`.
-- Canonical job URLs use the Workday apply path
-  (`https://thales.wd3.myworkdayjobs.com/Careers/job/...`).
+- Canonical job URLs use the Workday details path
+  (`https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/{slug}_{reqId}`),
+  not the apply URLs.
 
 ### Changed
 - `scraper/config/company.json` and `scraper/config/scraper.json` updated for

@@ -40,6 +40,8 @@ SAMPLE_JOB_2 = {
     "postedDate": "2026-07-01T00:00:00.000+0000",
 }
 
+DETAILS_PREFIX = "https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/"
+
 
 def test_build_listing_url(scraper_config):
     url = index.build_listing_url()
@@ -50,7 +52,18 @@ def test_build_listing_url(scraper_config):
 
 
 def test_build_job_url():
-    assert index.build_job_url("R0330940").startswith("https://thales.wd3.myworkdayjobs.com/Careers/job/")
+    url = index.build_job_url("Java Software Engineer - Naval Business", "R0161685")
+    assert url == "https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Java-Software-Engineer_R0161685"
+
+
+def test_build_job_url_en_dash_split():
+    url = index.build_job_url("Senior Front-End Developer (UI Components) – Quantum", "R0336024")
+    assert url == DETAILS_PREFIX + "Senior-Front-End-Developer-UI-Components_R0336024"
+
+
+def test_build_job_url_no_separator():
+    url = index.build_job_url("HR Business Partner", "R0333338")
+    assert url == DETAILS_PREFIX + "HR-Business-Partner_R0333338"
 
 
 def test_extract_location_takes_first_token():
@@ -72,7 +85,8 @@ def test_parse_api_jobs():
     jobs = index.parse_api_jobs(html)
     assert len(jobs) == 2
     assert jobs[0]["title"] == "Team Manager - Software Engineering"
-    assert jobs[0]["url"] == SAMPLE_JOB_1["applyUrl"]
+    assert jobs[0]["url"] == DETAILS_PREFIX + "Team-Manager_R0330940"
+    assert jobs[1]["url"] == DETAILS_PREFIX + "C-Software-Engineer_R0330941"
     assert jobs[0]["location"] == ["Bucharest"]
     assert jobs[0]["date"] == SAMPLE_JOB_1["postedDate"]
 

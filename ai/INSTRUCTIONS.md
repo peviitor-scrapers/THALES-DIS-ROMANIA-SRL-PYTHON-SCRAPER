@@ -69,7 +69,7 @@ python3 -m scraper.index
 
 > **Important**: The scraper does NOT delete jobs from other sources
 > (ANOFM, jobviewtrack, ejobs, olx, multijobs, targuldecariere). Stale
-> deletion is scoped to the Workday apply-URL prefix only, so jobs
+> deletion is scoped to the Workday details-URL prefix only, so jobs
 > published by other scrapers under the shared CIF are preserved.
 
 ## Full Workflow (automatic)
@@ -117,7 +117,7 @@ transform_jobs_for_solr()
 upsert_jobs() - API handles duplicate by URL
     │
     ▼
-delete stale Workday apply-URLs
+delete stale Workday details-URLs
     │
     ▼
 generate_jobs_markdown() → docs/jobs.md
@@ -183,7 +183,7 @@ python3 -m scraper.index
 python3 -m scraper.index --test
 
 # Query jobs in peviitor by CIF (read-only verify; add --delete to remove
-# invalid board URLs — deletion is scoped to the Workday apply-URL prefix,
+# invalid board URLs — deletion is scoped to the Workday details-URL prefix,
 # so jobs from other scrapers under a shared CIF are never touched)
 python3 -m scraper.api 37180822
 

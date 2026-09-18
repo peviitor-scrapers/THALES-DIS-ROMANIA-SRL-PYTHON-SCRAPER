@@ -81,6 +81,6 @@
 
 - All operations go through the peviitor v1 API — no direct Solr access.
 - CIF `37180822` is shared with other peviitor scrapers; stale-deletion is
-  scoped to the Workday apply-URL prefix only.
+  scoped to the Workday details-URL prefix only.
 - Full workflow: validate company (ANAF) → scrape Thales Phenom board → merge
   ANOFM → transform → upsert → delete stale → generate `docs/jobs.md`.

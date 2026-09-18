@@ -49,7 +49,7 @@ Standardized job document published to peviitor SOLR.
 
 ```json
 {
-  "url": "https://thales.wd3.myworkdayjobs.com/Careers/job/R-XXXXX",
+  "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/R-XXXXX",
   "title": "Inginer",
   "company": "THALES DIS ROMANIA S.R.L.",
   "cif": "37180822",
