@@ -17,13 +17,13 @@ Toate scraper-ele derivate din acest template **MUST** avea **EXACT 2 topic-uri*
 ## Cum verifici
 
 ```bash
-gh repo view elenab01234/THALES-DIS-ROMANIA-SRL-PYTHON-SCRAPER --json repositoryTopics
+gh repo view peviitor-scrapers/THALES-DIS-ROMANIA-SRL-PYTHON-SCRAPER --json repositoryTopics
 ```
 
 ## Cum setezi
 
 ```bash
-gh repo edit elenab01234/THALES-DIS-ROMANIA-SRL-PYTHON-SCRAPER --add-topic job-seeker-ro-spider --add-topic peviitor-ro
+gh repo edit peviitor-scrapers/THALES-DIS-ROMANIA-SRL-PYTHON-SCRAPER --add-topic job-seeker-ro-spider --add-topic peviitor-ro
 ```
 
-sau manual pe `https://github.com/elenab01234/THALES-DIS-ROMANIA-SRL-PYTHON-SCRAPER/settings`.
+sau manual pe `https://github.com/peviitor-scrapers/THALES-DIS-ROMANIA-SRL-PYTHON-SCRAPER/settings`.

@@ -5,7 +5,7 @@
 Before any work, check open issues and fix them:
 
 ```bash
-gh issue list --repo elenab01234/THALES-DIS-ROMANIA-SRL-PYTHON-SCRAPER --state open
+gh issue list --repo peviitor-scrapers/THALES-DIS-ROMANIA-SRL-PYTHON-SCRAPER --state open
 ```
 
 Prioritize `critical` → `bug` → `enhancement` → `documentation`. For each

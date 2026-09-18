@@ -35,7 +35,7 @@ workflow run (`gh run view ...`) from a different CWD, it returns 404 and
 the loop hangs forever. Always pass `--repo` explicitly:
 
 ```bash
-gh run view <RUN_ID> --repo elenab01234/THALES-DIS-ROMANIA-SRL-PYTHON-SCRAPER --json status -q .status
+gh run view <RUN_ID> --repo peviitor-scrapers/THALES-DIS-ROMANIA-SRL-PYTHON-SCRAPER --json status -q .status
 ```
 
 If a background task is stuck, kill it immediately instead of letting it
@@ -67,7 +67,7 @@ module, file an issue and sync the fix back to the source template.
 ## Maintenance
 
 On every session: check open GitHub issues
-(`gh issue list --repo elenab01234/THALES-DIS-ROMANIA-SRL-PYTHON-SCRAPER --state open`),
+(`gh issue list --repo peviitor-scrapers/THALES-DIS-ROMANIA-SRL-PYTHON-SCRAPER --state open`),
 prioritize `critical` → `bug` → `enhancement` → `documentation`, and fix
 them — commit with the issue reference and close the issue.
 

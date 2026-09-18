@@ -46,6 +46,6 @@ config when available.
   "location": ["Bucuresti"],
   "website": ["https://www.thalesgroup.com"],
   "career": ["https://careers.thalesgroup.com/global/en/romania-search-jobs"],
-  "scraperFile": "https://github.com/elenab01234/THALES-DIS-ROMANIA-SRL-PYTHON-SCRAPER/actions/workflows/job-seeker-ro-spider.yml"
+  "scraperFile": "https://github.com/peviitor-scrapers/THALES-DIS-ROMANIA-SRL-PYTHON-SCRAPER/actions/workflows/job-seeker-ro-spider.yml"
 }
 ```

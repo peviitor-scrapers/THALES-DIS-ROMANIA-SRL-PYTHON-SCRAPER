@@ -66,7 +66,7 @@ def test_readme_license_owner():
 
 def test_readme_badges_match_repo():
     readme = _readme()
-    assert "elenab01234.github.io" in readme, "README.md must link the GitHub Pages site"
+    assert "peviitor-scrapers.github.io" in readme, "README.md must link the GitHub Pages site"
     wf = ROOT / ".github" / "workflows" / "job-seeker-ro-spider.yml"
     if not wf.exists():
         pytest.skip("workflow file not present")

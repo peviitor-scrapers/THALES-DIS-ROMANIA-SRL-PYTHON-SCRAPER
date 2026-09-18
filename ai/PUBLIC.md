@@ -12,14 +12,14 @@ All scrapers derived from the template **MUST** be **PUBLIC** repositories.
 
 Keep the repository public. The repo is public and hosted at:
 
-- Repository: https://github.com/elenab01234/THALES-DIS-ROMANIA-SRL-PYTHON-SCRAPER
-- GitHub Pages: https://elenab01234.github.io/THALES-DIS-ROMANIA-SRL-PYTHON-SCRAPER/ (`docs/` on `main`, built automatically)
-- Scraper workflow: https://github.com/elenab01234/THALES-DIS-ROMANIA-SRL-PYTHON-SCRAPER/actions/workflows/job-seeker-ro-spider.yml
+- Repository: https://github.com/peviitor-scrapers/THALES-DIS-ROMANIA-SRL-PYTHON-SCRAPER
+- GitHub Pages: https://peviitor-scrapers.github.io/THALES-DIS-ROMANIA-SRL-PYTHON-SCRAPER/ (`docs/` on `main`, built automatically)
+- Scraper workflow: https://github.com/peviitor-scrapers/THALES-DIS-ROMANIA-SRL-PYTHON-SCRAPER/actions/workflows/job-seeker-ro-spider.yml
 - Jobs page: `docs/jobs.md` (generated, committed, served on GitHub Pages)
 - Peviitor search: https://peviitor.ro (CIF `37180822`)
 
 ## How to check
 
 ```bash
-gh repo view elenab01234/THALES-DIS-ROMANIA-SRL-PYTHON-SCRAPER --json visibility
+gh repo view peviitor-scrapers/THALES-DIS-ROMANIA-SRL-PYTHON-SCRAPER --json visibility
 ```

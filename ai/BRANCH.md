@@ -12,7 +12,7 @@ All scrapers derived from the template **MUST** use `main` as the default branch
 
 1. Default branch **MUST** fie `main` — NU `master`, `develop`, sau altceva.
 2. Orice branch `master` existent trebuie redenumit în `main`.
-3. Verificare: `gh repo view elenab01234/THALES-DIS-ROMANIA-SRL-PYTHON-SCRAPER --json defaultBranch`
+3. Verificare: `gh repo view peviitor-scrapers/THALES-DIS-ROMANIA-SRL-PYTHON-SCRAPER --json defaultBranch`
 4. Doar `main` este long-lived; munca se face pe branch-uri scurte sau direct
    prin GitHub Actions (repo-ul e condus de workflows programate).
 
@@ -20,11 +20,11 @@ All scrapers derived from the template **MUST** use `main` as the default branch
 
 ```bash
 # Creează branch-ul main pe același commit ca master
-gh api repos/elenab01234/THALES-DIS-ROMANIA-SRL-PYTHON-SCRAPER/git/refs -f ref="refs/heads/main" -f sha=$(gh api repos/elenab01234/THALES-DIS-ROMANIA-SRL-PYTHON-SCRAPER/git/refs/heads/master --jq '.object.sha')
+gh api repos/peviitor-scrapers/THALES-DIS-ROMANIA-SRL-PYTHON-SCRAPER/git/refs -f ref="refs/heads/main" -f sha=$(gh api repos/peviitor-scrapers/THALES-DIS-ROMANIA-SRL-PYTHON-SCRAPER/git/refs/heads/master --jq '.object.sha')
 
 # Schimbă default branch
-gh api repos/elenab01234/THALES-DIS-ROMANIA-SRL-PYTHON-SCRAPER -X PATCH -f default_branch="main"
+gh api repos/peviitor-scrapers/THALES-DIS-ROMANIA-SRL-PYTHON-SCRAPER -X PATCH -f default_branch="main"
 
 # Șterge branch-ul master
-gh api repos/elenab01234/THALES-DIS-ROMANIA-SRL-PYTHON-SCRAPER/git/refs/heads/master -X DELETE
+gh api repos/peviitor-scrapers/THALES-DIS-ROMANIA-SRL-PYTHON-SCRAPER/git/refs/heads/master -X DELETE
 ```
