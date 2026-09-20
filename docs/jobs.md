@@ -8,31 +8,13 @@
 | Brand | Thales |
 | Website | https://www.thalesgroup.com |
 | Career | https://careers.thalesgroup.com/global/en/romania-search-jobs |
-| LastScraped | 2026-09-19 |
+| LastScraped | 2026-09-20 |
 
-## Jobs (32)
+## Jobs (31)
 
 ### Team Manager - Software Engineering for Defence Naval Business
 
 - **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Team-Manager_R0330940](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Team-Manager_R0330940)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### C++ Software Engineer - Defence Naval Business
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/C-Software-Engineer_R0190603](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/C-Software-Engineer_R0190603)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### Data SRE — Bucharest Sovereign Cloud Hub
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Data-SRE_R0332890](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Data-SRE_R0332890)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### Validation Engineer with French for Biometric Systems
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Validation-Engineer-with-French-for-Biometric-Systems_R0329831](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Validation-Engineer-with-French-for-Biometric-Systems_R0329831)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -42,9 +24,15 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### QA Automation Engineer | Break It Before the World Does
+### Validation Engineer with French for Biometric Systems
 
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/QA-Automation-Engineer_R0333983](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/QA-Automation-Engineer_R0333983)
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Validation-Engineer-with-French-for-Biometric-Systems_R0329831](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Validation-Engineer-with-French-for-Biometric-Systems_R0329831)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### Data SRE — Bucharest Sovereign Cloud Hub
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Data-SRE_R0332890](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Data-SRE_R0332890)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -54,9 +42,9 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### Senior Front-End Developer (UI Components & Design Tokens) – Quantum
+### QA Automation Engineer | Break It Before the World Does
 
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Senior-Front-End-Developer-UI-Components-Design-Tokens_R0336024](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Senior-Front-End-Developer-UI-Components-Design-Tokens_R0336024)
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/QA-Automation-Engineer_R0333983](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/QA-Automation-Engineer_R0333983)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -66,21 +54,27 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### Senior Network Administrator with French
+### Senior Front-End Developer (UI Components & Design Tokens) – Quantum
 
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Senior-Network-Administrator-with-French_R0314433](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Senior-Network-Administrator-with-French_R0314433)
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Senior-Front-End-Developer-UI-Components-Design-Tokens_R0336024](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Senior-Front-End-Developer-UI-Components-Design-Tokens_R0336024)
 - **Location**: Bucharest
 - **Status**: scraped
 
-### Infrastructure Engineer (with DevOps skills)
+### C++ Software Engineer - Defence Naval Business
 
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Infrastructure-Engineer-with-DevOps-skills_R0336201](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Infrastructure-Engineer-with-DevOps-skills_R0336201)
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/C-Software-Engineer_R0190603](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/C-Software-Engineer_R0190603)
 - **Location**: Bucharest
 - **Status**: scraped
 
 ### Senior DBA Engineer - with Cassandra
 
 - **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Senior-DBA-Engineer_R0330589](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Senior-DBA-Engineer_R0330589)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### Infrastructure Engineer (with DevOps skills)
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Infrastructure-Engineer-with-DevOps-skills_R0336201](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Infrastructure-Engineer-with-DevOps-skills_R0336201)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -205,4 +199,4 @@
 - **Status**: scraped
 
 ---
-_Generated at 2026-09-19T09:48:57Z_
+_Generated at 2026-09-20T10:10:54Z_
