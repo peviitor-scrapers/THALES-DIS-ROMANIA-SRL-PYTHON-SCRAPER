@@ -8,7 +8,7 @@
 | Brand | Thales |
 | Website | https://www.thalesgroup.com |
 | Career | https://careers.thalesgroup.com/global/en/romania-search-jobs |
-| LastScraped | 2026-09-20 |
+| LastScraped | 2026-09-21 |
 
 ## Jobs (31)
 
@@ -21,12 +21,6 @@
 ### Security SRE - Bucharest Sovereign Cloud Hub
 
 - **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Security-SRE_R0332898](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Security-SRE_R0332898)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### Validation Engineer with French for Biometric Systems
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Validation-Engineer-with-French-for-Biometric-Systems_R0329831](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Validation-Engineer-with-French-for-Biometric-Systems_R0329831)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -72,15 +66,9 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### Infrastructure Engineer (with DevOps skills)
+### Senior Network Administrator with French
 
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Infrastructure-Engineer-with-DevOps-skills_R0336201](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Infrastructure-Engineer-with-DevOps-skills_R0336201)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### DevOps Engineer
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/DevOps-Engineer_R0337481](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/DevOps-Engineer_R0337481)
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Senior-Network-Administrator-with-French_R0314433](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Senior-Network-Administrator-with-French_R0314433)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -198,5 +186,17 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
+### DevOps Engineer
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/DevOps-Engineer_R0337481](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/DevOps-Engineer_R0337481)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### Validation Engineer with French for Biometric Systems
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Validation-Engineer-with-French-for-Biometric-Systems_R0329831](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Validation-Engineer-with-French-for-Biometric-Systems_R0329831)
+- **Location**: Bucharest
+- **Status**: scraped
+
 ---
-_Generated at 2026-09-20T10:10:54Z_
+_Generated at 2026-09-21T11:13:33Z_
