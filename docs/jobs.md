@@ -8,7 +8,7 @@
 | Brand | Thales |
 | Website | https://www.thalesgroup.com |
 | Career | https://careers.thalesgroup.com/global/en/romania-search-jobs |
-| LastScraped | 2026-09-24 |
+| LastScraped | 2026-09-25 |
 
 ## Jobs (31)
 
@@ -18,15 +18,15 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### Data SRE — Bucharest Sovereign Cloud Hub
+### C++ Software Engineer - Defence Naval Business
 
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Data-SRE_R0332890](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Data-SRE_R0332890)
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/C-Software-Engineer_R0190603](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/C-Software-Engineer_R0190603)
 - **Location**: Bucharest
 - **Status**: scraped
 
-### HR Business Partner
+### Data SRE — Bucharest Sovereign Cloud Hub
 
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/HR-Business-Partner_R0333338](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/HR-Business-Partner_R0333338)
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Data-SRE_R0332890](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Data-SRE_R0332890)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -36,9 +36,9 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### Full Stack Tech Lead for Defense Business
+### HR Business Partner
 
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Full-Stack-Tech-Lead-for-Defense-Business_R0335757](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Full-Stack-Tech-Lead-for-Defense-Business_R0335757)
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/HR-Business-Partner_R0333338](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/HR-Business-Partner_R0333338)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -48,9 +48,9 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### C++ Software Engineer - Defence Naval Business
+### Full Stack Tech Lead for Defense Business
 
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/C-Software-Engineer_R0190603](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/C-Software-Engineer_R0190603)
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Full-Stack-Tech-Lead-for-Defense-Business_R0335757](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Full-Stack-Tech-Lead-for-Defense-Business_R0335757)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -199,4 +199,4 @@
 - **Status**: scraped
 
 ---
-_Generated at 2026-09-24T10:36:17Z_
+_Generated at 2026-09-25T10:39:31Z_
