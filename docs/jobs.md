@@ -8,7 +8,7 @@
 | Brand | Thales |
 | Website | https://www.thalesgroup.com |
 | Career | https://careers.thalesgroup.com/global/en/romania-search-jobs |
-| LastScraped | 2026-09-25 |
+| LastScraped | 2026-09-26 |
 
 ## Jobs (31)
 
@@ -18,21 +18,9 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### C++ Software Engineer - Defence Naval Business
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/C-Software-Engineer_R0190603](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/C-Software-Engineer_R0190603)
-- **Location**: Bucharest
-- **Status**: scraped
-
 ### Data SRE — Bucharest Sovereign Cloud Hub
 
 - **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Data-SRE_R0332890](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Data-SRE_R0332890)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### QA Automation Engineer | Break It Before the World Does
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/QA-Automation-Engineer_R0333983](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/QA-Automation-Engineer_R0333983)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -42,15 +30,27 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### Senior Front-End Developer (UI Components & Design Tokens) – Quantum
+### QA Automation Engineer | Break It Before the World Does
 
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Senior-Front-End-Developer-UI-Components-Design-Tokens_R0336024](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Senior-Front-End-Developer-UI-Components-Design-Tokens_R0336024)
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/QA-Automation-Engineer_R0333983](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/QA-Automation-Engineer_R0333983)
 - **Location**: Bucharest
 - **Status**: scraped
 
 ### Full Stack Tech Lead for Defense Business
 
 - **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Full-Stack-Tech-Lead-for-Defense-Business_R0335757](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Full-Stack-Tech-Lead-for-Defense-Business_R0335757)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### Senior Front-End Developer (UI Components & Design Tokens) – Quantum
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Senior-Front-End-Developer-UI-Components-Design-Tokens_R0336024](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Senior-Front-End-Developer-UI-Components-Design-Tokens_R0336024)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### C++ Software Engineer - Defence Naval Business
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/C-Software-Engineer_R0190603](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/C-Software-Engineer_R0190603)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -199,4 +199,4 @@
 - **Status**: scraped
 
 ---
-_Generated at 2026-09-25T10:39:31Z_
+_Generated at 2026-09-26T10:23:17Z_
