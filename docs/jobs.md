@@ -8,9 +8,9 @@
 | Brand | Thales |
 | Website | https://www.thalesgroup.com |
 | Career | https://careers.thalesgroup.com/global/en/romania-search-jobs |
-| LastScraped | 2026-10-03 |
+| LastScraped | 2026-10-04 |
 
-## Jobs (28)
+## Jobs (30)
 
 ### Sales Manager (Civil Identity, Border & Travel, Public Security Solutions)
 
@@ -132,6 +132,24 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
+### Infrastructure Integrator for Air Traffic Control Solutions
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Infrastructure-Integrator-for-Air-Traffic-Control-Solutions_R0340824](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Infrastructure-Integrator-for-Air-Traffic-Control-Solutions_R0340824)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### Data SRE — Bucharest Sovereign Cloud Hub
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Data-SRE_R0332890](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Data-SRE_R0332890)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### QA Automation Engineer | Break It Before the World Does
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/QA-Automation-Engineer_R0333983](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/QA-Automation-Engineer_R0333983)
+- **Location**: Bucharest
+- **Status**: scraped
+
 ### Network SRE — Bucharest Sovereign Cloud Hub
 
 - **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Network-SRE_R0332896](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Network-SRE_R0332896)
@@ -150,24 +168,6 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### QA Automation Engineer | Break It Before the World Does
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/QA-Automation-Engineer_R0333983](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/QA-Automation-Engineer_R0333983)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### C++ Software Engineer - Defence Naval Business
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/C-Software-Engineer_R0190603](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/C-Software-Engineer_R0190603)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### AI / Machine Learning Engineer | Models That Guide Missions, Not Ads
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/AI-Machine-Learning-Engineer_R0333980](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/AI-Machine-Learning-Engineer_R0333980)
-- **Location**: Bucharest
-- **Status**: scraped
-
 ### Data Engineer | Pipelines With a Mission (AI Track Inside)
 
 - **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Data-Engineer_R0333978](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Data-Engineer_R0333978)
@@ -180,5 +180,17 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
+### AI / Machine Learning Engineer | Models That Guide Missions, Not Ads
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/AI-Machine-Learning-Engineer_R0333980](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/AI-Machine-Learning-Engineer_R0333980)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### C++ Software Engineer - Defence Naval Business
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/C-Software-Engineer_R0190603](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/C-Software-Engineer_R0190603)
+- **Location**: Bucharest
+- **Status**: scraped
+
 ---
-_Generated at 2026-10-03T10:43:19Z_
+_Generated at 2026-10-04T11:23:54Z_
