@@ -8,9 +8,9 @@
 | Brand | Thales |
 | Website | https://www.thalesgroup.com |
 | Career | https://careers.thalesgroup.com/global/en/romania-search-jobs |
-| LastScraped | 2026-10-06 |
+| LastScraped | 2026-10-07 |
 
-## Jobs (31)
+## Jobs (29)
 
 ### Sales Manager (Civil Identity, Border & Travel, Public Security Solutions)
 
@@ -39,12 +39,6 @@
 ### Java Software Engineer - Naval Business
 
 - **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Java-Software-Engineer_R0161685](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Java-Software-Engineer_R0161685)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### Senior Front-End Developer (UI Components & Design Tokens) – Quantum
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Senior-Front-End-Developer-UI-Components-Design-Tokens_R0336024](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Senior-Front-End-Developer-UI-Components-Design-Tokens_R0336024)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -84,39 +78,9 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### Field Support Engineer
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Field-Support-Engineer_R0339100](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Field-Support-Engineer_R0339100)
-- **Location**: Bucharest
-- **Status**: scraped
-
 ### System Administrator Virtualization
 
 - **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/System-Administrator-Virtualization_R0340679](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/System-Administrator-Virtualization_R0340679)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### System Integration & Test Engineer (IVVQ) | The Last Line Before Software Meets Reality
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/System-Integration-Test-Engineer-IVVQ_R0333982](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/System-Integration-Test-Engineer-IVVQ_R0333982)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### DevOps Engineer
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/DevOps-Engineer_R0337481](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/DevOps-Engineer_R0337481)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### Senior Network Administrator with French
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Senior-Network-Administrator-with-French_R0314433](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Senior-Network-Administrator-with-French_R0314433)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### IVQ Operations Engineer (NATO Project)
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/IVQ-Operations-Engineer-NATO-Project_R0337371](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/IVQ-Operations-Engineer-NATO-Project_R0337371)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -132,21 +96,33 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
+### DevOps Engineer
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/DevOps-Engineer_R0337481](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/DevOps-Engineer_R0337481)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### Data SRE — Bucharest Sovereign Cloud Hub
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Data-SRE_R0332890](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Data-SRE_R0332890)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### Senior Network Administrator with French
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Senior-Network-Administrator-with-French_R0314433](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Senior-Network-Administrator-with-French_R0314433)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### System Integration & Test Engineer (IVVQ) | The Last Line Before Software Meets Reality
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/System-Integration-Test-Engineer-IVVQ_R0333982](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/System-Integration-Test-Engineer-IVVQ_R0333982)
+- **Location**: Bucharest
+- **Status**: scraped
+
 ### Network SRE — Bucharest Sovereign Cloud Hub
 
 - **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Network-SRE_R0332896](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Network-SRE_R0332896)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### IT & Cloud Ops Engineer | Sovereign Cloud, Real Stakes
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/IT-Cloud-Ops-Engineer_R0333975](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/IT-Cloud-Ops-Engineer_R0333975)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### GIS Engineer / Software Developer (Python, DevOps, DB Knowledge)
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/GIS-Engineer-Software-Developer-Python-DevOps-DB-Knowledge_R0332453](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/GIS-Engineer-Software-Developer-Python-DevOps-DB-Knowledge_R0332453)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -162,9 +138,15 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### AI / Machine Learning Engineer | Models That Guide Missions, Not Ads
+### IT & Cloud Ops Engineer | Sovereign Cloud, Real Stakes
 
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/AI-Machine-Learning-Engineer_R0333980](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/AI-Machine-Learning-Engineer_R0333980)
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/IT-Cloud-Ops-Engineer_R0333975](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/IT-Cloud-Ops-Engineer_R0333975)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### GIS Engineer / Software Developer (Python, DevOps, DB Knowledge)
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/GIS-Engineer-Software-Developer-Python-DevOps-DB-Knowledge_R0332453](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/GIS-Engineer-Software-Developer-Python-DevOps-DB-Knowledge_R0332453)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -180,15 +162,9 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### Database Engineer
+### AI / Machine Learning Engineer | Models That Guide Missions, Not Ads
 
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Database-Engineer_R0340640](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Database-Engineer_R0340640)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### Mid Billing Site Reliability Engineer
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Mid-Billing-Site-Reliability-Engineer_R0342251](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Mid-Billing-Site-Reliability-Engineer_R0342251)
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/AI-Machine-Learning-Engineer_R0333980](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/AI-Machine-Learning-Engineer_R0333980)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -198,5 +174,17 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
+### Mid Billing Site Reliability Engineer
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Mid-Billing-Site-Reliability-Engineer_R0342251](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Mid-Billing-Site-Reliability-Engineer_R0342251)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### Database Engineer
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Database-Engineer_R0340640](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Database-Engineer_R0340640)
+- **Location**: Bucharest
+- **Status**: scraped
+
 ---
-_Generated at 2026-10-06T12:17:39Z_
+_Generated at 2026-10-07T12:09:04Z_
