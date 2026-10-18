@@ -8,13 +8,31 @@
 | Brand | Thales |
 | Website | https://www.thalesgroup.com |
 | Career | https://careers.thalesgroup.com/global/en/romania-search-jobs |
-| LastScraped | 2026-10-17 |
+| LastScraped | 2026-10-18 |
 
-## Jobs (35)
+## Jobs (33)
 
 ### Senior Network Administrator with French
 
 - **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Senior-Network-Administrator-with-French_R0314433](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Senior-Network-Administrator-with-French_R0314433)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### C++ Software Engineer - Defence Naval Business
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/C-Software-Engineer_R0190603](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/C-Software-Engineer_R0190603)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### GIS Engineer / Software Developer (Python, DevOps, DB Knowledge)
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/GIS-Engineer-Software-Developer-Python-DevOps-DB-Knowledge_R0332453](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/GIS-Engineer-Software-Developer-Python-DevOps-DB-Knowledge_R0332453)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### HR Business Partner
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/HR-Business-Partner_R0333338](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/HR-Business-Partner_R0333338)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -24,9 +42,9 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### C++ Software Engineer - Defence Naval Business
+### MID FullStack Java & Angular (B1 French) – Shape Global Innovation
 
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/C-Software-Engineer_R0190603](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/C-Software-Engineer_R0190603)
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/MID-FullStack-Java-Angular-B1-French_R0331165](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/MID-FullStack-Java-Angular-B1-French_R0331165)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -48,24 +66,6 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### Data SRE — Bucharest Sovereign Cloud Hub
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Data-SRE_R0332890](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Data-SRE_R0332890)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### DevOps Engineer | Ship Software That Can't Afford to Break
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/DevOps-Engineer_R0333964](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/DevOps-Engineer_R0333964)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### System Integration & Test Engineer (IVVQ) | The Last Line Before Software Meets Reality
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/System-Integration-Test-Engineer-IVVQ_R0333982](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/System-Integration-Test-Engineer-IVVQ_R0333982)
-- **Location**: Bucharest
-- **Status**: scraped
-
 ### Product Owner | Your Backlog Guides Air Traffic
 
 - **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Product-Owner_R0333984](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Product-Owner_R0333984)
@@ -81,18 +81,6 @@
 ### QA Automation Engineer | Break It Before the World Does
 
 - **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/QA-Automation-Engineer_R0333983](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/QA-Automation-Engineer_R0333983)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### MID FullStack Java & Angular (B1 French) – Shape Global Innovation
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/MID-FullStack-Java-Angular-B1-French_R0331165](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/MID-FullStack-Java-Angular-B1-French_R0331165)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### GIS Engineer / Software Developer (Python, DevOps, DB Knowledge)
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/GIS-Engineer-Software-Developer-Python-DevOps-DB-Knowledge_R0332453](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/GIS-Engineer-Software-Developer-Python-DevOps-DB-Knowledge_R0332453)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -117,12 +105,6 @@
 ### IT Service Management Manager – Incident, Problem & Change Management
 
 - **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/IT-Service-Management-Manager_R0337035](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/IT-Service-Management-Manager_R0337035)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### HR Business Partner
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/HR-Business-Partner_R0333338](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/HR-Business-Partner_R0333338)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -210,6 +192,12 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
+### Network Engineer
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Network-Engineer_R0337473](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Network-Engineer_R0337473)
+- **Location**: Bucharest
+- **Status**: scraped
+
 ### Database Engineer
 
 - **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Database-Engineer_R0340640](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Database-Engineer_R0340640)
@@ -223,4 +211,4 @@
 - **Status**: scraped
 
 ---
-_Generated at 2026-10-17T09:47:15Z_
+_Generated at 2026-10-18T09:59:48Z_
