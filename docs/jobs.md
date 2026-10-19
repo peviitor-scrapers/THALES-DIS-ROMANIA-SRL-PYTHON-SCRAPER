@@ -8,9 +8,9 @@
 | Brand | Thales |
 | Website | https://www.thalesgroup.com |
 | Career | https://careers.thalesgroup.com/global/en/romania-search-jobs |
-| LastScraped | 2026-10-18 |
+| LastScraped | 2026-10-19 |
 
-## Jobs (33)
+## Jobs (32)
 
 ### Senior Network Administrator with French
 
@@ -102,18 +102,6 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### IT Service Management Manager – Incident, Problem & Change Management
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/IT-Service-Management-Manager_R0337035](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/IT-Service-Management-Manager_R0337035)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### Workplace Engineer
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Workplace-Engineer_R0337476](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Workplace-Engineer_R0337476)
-- **Location**: Bucharest
-- **Status**: scraped
-
 ### IVQ NetOps Engineer (NATO Project)
 
 - **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/IVQ-NetOps-Engineer-NATO-Project_R0337428](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/IVQ-NetOps-Engineer-NATO-Project_R0337428)
@@ -174,27 +162,15 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### Java Developer | Build Systems That Guide Aircraft, Not Ads
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Java-Developer_R0333971](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Java-Developer_R0333971)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### Java Backend Tech Lead - Production Systems & Architecture
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Java-Backend-Tech-Lead_R0340541](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Java-Backend-Tech-Lead_R0340541)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### Engineering Delivery Manager with French
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Engineering-Delivery-Manager-with-French_R0342077](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Engineering-Delivery-Manager-with-French_R0342077)
-- **Location**: Bucharest
-- **Status**: scraped
-
 ### Network Engineer
 
 - **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Network-Engineer_R0337473](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Network-Engineer_R0337473)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### Java Developer | Build Systems That Guide Aircraft, Not Ads
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Java-Developer_R0333971](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Java-Developer_R0333971)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -210,5 +186,23 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
+### Engineering Delivery Manager with French
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Engineering-Delivery-Manager-with-French_R0342077](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Engineering-Delivery-Manager-with-French_R0342077)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### Workplace Engineer
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Workplace-Engineer_R0337476](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Workplace-Engineer_R0337476)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### IT Service Management Manager – Incident, Problem & Change Management
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/IT-Service-Management-Manager_R0337035](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/IT-Service-Management-Manager_R0337035)
+- **Location**: Bucharest
+- **Status**: scraped
+
 ---
-_Generated at 2026-10-18T09:59:48Z_
+_Generated at 2026-10-19T11:22:44Z_
