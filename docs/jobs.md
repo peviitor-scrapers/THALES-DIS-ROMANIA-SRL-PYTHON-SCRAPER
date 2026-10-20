@@ -8,9 +8,9 @@
 | Brand | Thales |
 | Website | https://www.thalesgroup.com |
 | Career | https://careers.thalesgroup.com/global/en/romania-search-jobs |
-| LastScraped | 2026-10-19 |
+| LastScraped | 2026-10-20 |
 
-## Jobs (32)
+## Jobs (34)
 
 ### Senior Network Administrator with French
 
@@ -162,6 +162,12 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
+### Database Engineer
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Database-Engineer_R0340640](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Database-Engineer_R0340640)
+- **Location**: Bucharest
+- **Status**: scraped
+
 ### Network Engineer
 
 - **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Network-Engineer_R0337473](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Network-Engineer_R0337473)
@@ -174,21 +180,15 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### Database Engineer
+### Java Backend Tech Lead - Production Systems & Architecture
 
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Database-Engineer_R0340640](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Database-Engineer_R0340640)
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Java-Backend-Tech-Lead_R0340541](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Java-Backend-Tech-Lead_R0340541)
 - **Location**: Bucharest
 - **Status**: scraped
 
-### Engineering Delivery Manager
+### Technical Lead (Government / Defence Satellite Communications)
 
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Engineering-Delivery-Manager_R0342967](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Engineering-Delivery-Manager_R0342967)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### Engineering Delivery Manager with French
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Engineering-Delivery-Manager-with-French_R0342077](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Engineering-Delivery-Manager-with-French_R0342077)
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Technical-Lead-Government-Defence-Satellite-Communications_R0342971](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Technical-Lead-Government-Defence-Satellite-Communications_R0342971)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -204,5 +204,17 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
+### Engineering Delivery Manager with French
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Engineering-Delivery-Manager-with-French_R0342077](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Engineering-Delivery-Manager-with-French_R0342077)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### Engineering Delivery Manager
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Engineering-Delivery-Manager_R0342967](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Engineering-Delivery-Manager_R0342967)
+- **Location**: Bucharest
+- **Status**: scraped
+
 ---
-_Generated at 2026-10-19T11:22:44Z_
+_Generated at 2026-10-20T10:30:29Z_
