@@ -8,7 +8,7 @@
 | Brand | Thales |
 | Website | https://www.thalesgroup.com |
 | Career | https://careers.thalesgroup.com/global/en/romania-search-jobs |
-| LastScraped | 2026-10-28 |
+| LastScraped | 2026-10-29 |
 
 ## Jobs (27)
 
@@ -18,27 +18,15 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### C++ Software Engineer - Defence Naval Business
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/C-Software-Engineer_R0190603](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/C-Software-Engineer_R0190603)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### HR Business Partner
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/HR-Business-Partner_R0333338](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/HR-Business-Partner_R0333338)
-- **Location**: Bucharest
-- **Status**: scraped
-
 ### Java Software Engineer - Naval Business
 
 - **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Java-Software-Engineer_R0161685](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Java-Software-Engineer_R0161685)
 - **Location**: Bucharest
 - **Status**: scraped
 
-### MID FullStack Java & Angular (B1 French) – Shape Global Innovation
+### C++ Software Engineer - Defence Naval Business
 
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/MID-FullStack-Java-Angular-B1-French_R0331165](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/MID-FullStack-Java-Angular-B1-French_R0331165)
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/C-Software-Engineer_R0190603](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/C-Software-Engineer_R0190603)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -60,15 +48,27 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### Product Owner | Your Backlog Guides Air Traffic
+### Data SRE — Bucharest Sovereign Cloud Hub
 
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Product-Owner_R0333984](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Product-Owner_R0333984)
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Data-SRE_R0332890](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Data-SRE_R0332890)
 - **Location**: Bucharest
 - **Status**: scraped
 
-### AI / Machine Learning Engineer | Models That Guide Missions, Not Ads
+### DevOps Engineer | Ship Software That Can't Afford to Break
 
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/AI-Machine-Learning-Engineer_R0333980](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/AI-Machine-Learning-Engineer_R0333980)
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/DevOps-Engineer_R0333964](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/DevOps-Engineer_R0333964)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### System Integration & Test Engineer (IVVQ) | The Last Line Before Software Meets Reality
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/System-Integration-Test-Engineer-IVVQ_R0333982](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/System-Integration-Test-Engineer-IVVQ_R0333982)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### Product Owner | Your Backlog Guides Air Traffic
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Product-Owner_R0333984](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Product-Owner_R0333984)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -96,9 +96,9 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### IVQ NetOps Engineer (NATO Project)
+### Product Owner - AI Software Solutions
 
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/IVQ-NetOps-Engineer-NATO-Project_R0337428](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/IVQ-NetOps-Engineer-NATO-Project_R0337428)
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Product-Owner_R0340266](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Product-Owner_R0340266)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -108,9 +108,9 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### System Product Owner
+### DevOps Engineer
 
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/System-Product-Owner_R0343195](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/System-Product-Owner_R0343195)
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/DevOps-Engineer_R0337481](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/DevOps-Engineer_R0337481)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -123,18 +123,6 @@
 ### Python AI Agent Engineer (Mid-level)
 
 - **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Python-AI-Agent-Engineer-Mid-level_R0338175](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Python-AI-Agent-Engineer-Mid-level_R0338175)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### DevOps Engineer
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/DevOps-Engineer_R0337481](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/DevOps-Engineer_R0337481)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### Product Owner - AI Software Solutions
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Product-Owner_R0340266](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Product-Owner_R0340266)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -174,5 +162,17 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
+### Java Backend Tech Lead - Production Systems & Architecture
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Java-Backend-Tech-Lead_R0340541](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Java-Backend-Tech-Lead_R0340541)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### IVQ Infrastructure Engineer (NATO Project)
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/IVQ-Infrastructure-Engineer-NATO-Project_R0337371](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/IVQ-Infrastructure-Engineer-NATO-Project_R0337371)
+- **Location**: Bucharest
+- **Status**: scraped
+
 ---
-_Generated at 2026-10-28T11:43:50Z_
+_Generated at 2026-10-29T11:51:46Z_
