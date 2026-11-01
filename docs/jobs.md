@@ -8,9 +8,9 @@
 | Brand | Thales |
 | Website | https://www.thalesgroup.com |
 | Career | https://careers.thalesgroup.com/global/en/romania-search-jobs |
-| LastScraped | 2026-10-31 |
+| LastScraped | 2026-11-01 |
 
-## Jobs (29)
+## Jobs (32)
 
 ### C++ Software Engineer - Defence Naval Business
 
@@ -138,6 +138,48 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
+### Database Engineer
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Database-Engineer_R0340640](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Database-Engineer_R0340640)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### IVQ Infrastructure Engineer (NATO Project)
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/IVQ-Infrastructure-Engineer-NATO-Project_R0337371](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/IVQ-Infrastructure-Engineer-NATO-Project_R0337371)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### IVQ NetOps Engineer (NATO Project)
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/IVQ-NetOps-Engineer-NATO-Project_R0337428](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/IVQ-NetOps-Engineer-NATO-Project_R0337428)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### Python AI Agent Engineer (Mid-level)
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Python-AI-Agent-Engineer-Mid-level_R0338175](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Python-AI-Agent-Engineer-Mid-level_R0338175)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### Java Backend Tech Lead - Production Systems & Architecture
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Java-Backend-Tech-Lead_R0340541](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Java-Backend-Tech-Lead_R0340541)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### Java Developer | Build Systems That Guide Aircraft, Not Ads
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Java-Developer_R0333971](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Java-Developer_R0333971)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### System Administrator Virtualization
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/System-Administrator-Virtualization_R0340679](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/System-Administrator-Virtualization_R0340679)
+- **Location**: Bucharest
+- **Status**: scraped
+
 ### Technical Lead (Government / Defence Satellite Communications)
 
 - **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Technical-Lead-Government-Defence-Satellite-Communications_R0342971](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Technical-Lead-Government-Defence-Satellite-Communications_R0342971)
@@ -150,27 +192,9 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### Database Engineer
+### Contract Manager for Defence Technology Sector
 
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Database-Engineer_R0340640](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Database-Engineer_R0340640)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### Java Developer | Build Systems That Guide Aircraft, Not Ads
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Java-Developer_R0333971](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Java-Developer_R0333971)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### Java Backend Tech Lead - Production Systems & Architecture
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Java-Backend-Tech-Lead_R0340541](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Java-Backend-Tech-Lead_R0340541)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### IVQ Infrastructure Engineer (NATO Project)
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/IVQ-Infrastructure-Engineer-NATO-Project_R0337371](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/IVQ-Infrastructure-Engineer-NATO-Project_R0337371)
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Contract-Manager-for-Defence-Technology-Sector_R0339579](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Contract-Manager-for-Defence-Technology-Sector_R0339579)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -180,11 +204,5 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### Contract Manager for Defence Technology Sector
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Contract-Manager-for-Defence-Technology-Sector_R0339579](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Contract-Manager-for-Defence-Technology-Sector_R0339579)
-- **Location**: Bucharest
-- **Status**: scraped
-
 ---
-_Generated at 2026-10-31T11:17:50Z_
+_Generated at 2026-11-01T12:08:39Z_
