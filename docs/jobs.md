@@ -8,9 +8,9 @@
 | Brand | Thales |
 | Website | https://www.thalesgroup.com |
 | Career | https://careers.thalesgroup.com/global/en/romania-search-jobs |
-| LastScraped | 2026-11-01 |
+| LastScraped | 2026-11-02 |
 
-## Jobs (32)
+## Jobs (26)
 
 ### C++ Software Engineer - Defence Naval Business
 
@@ -72,24 +72,6 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### DevOps Engineer | Ship Software That Can't Afford to Break
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/DevOps-Engineer_R0333964](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/DevOps-Engineer_R0333964)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### Data SRE — Bucharest Sovereign Cloud Hub
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Data-SRE_R0332890](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Data-SRE_R0332890)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### IT & Cloud Ops Engineer | Sovereign Cloud, Real Stakes
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/IT-Cloud-Ops-Engineer_R0333975](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/IT-Cloud-Ops-Engineer_R0333975)
-- **Location**: Bucharest
-- **Status**: scraped
-
 ### QA Automation Engineer | Break It Before the World Does
 
 - **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/QA-Automation-Engineer_R0333983](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/QA-Automation-Engineer_R0333983)
@@ -108,27 +90,27 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### Product Owner - AI Software Solutions
+### IVQ NetOps Engineer (NATO Project)
 
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Product-Owner_R0340266](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Product-Owner_R0340266)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### DevOps Engineer
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/DevOps-Engineer_R0337481](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/DevOps-Engineer_R0337481)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### Engineering Delivery Manager
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Engineering-Delivery-Manager_R0342967](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Engineering-Delivery-Manager_R0342967)
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/IVQ-NetOps-Engineer-NATO-Project_R0337428](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/IVQ-NetOps-Engineer-NATO-Project_R0337428)
 - **Location**: Bucharest
 - **Status**: scraped
 
 ### System Product Owner
 
 - **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/System-Product-Owner_R0343195](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/System-Product-Owner_R0343195)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### System Administrator Virtualization
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/System-Administrator-Virtualization_R0340679](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/System-Administrator-Virtualization_R0340679)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### Python AI Agent Engineer (Mid-level)
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Python-AI-Agent-Engineer-Mid-level_R0338175](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Python-AI-Agent-Engineer-Mid-level_R0338175)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -150,18 +132,6 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### IVQ NetOps Engineer (NATO Project)
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/IVQ-NetOps-Engineer-NATO-Project_R0337428](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/IVQ-NetOps-Engineer-NATO-Project_R0337428)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### Python AI Agent Engineer (Mid-level)
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Python-AI-Agent-Engineer-Mid-level_R0338175](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Python-AI-Agent-Engineer-Mid-level_R0338175)
-- **Location**: Bucharest
-- **Status**: scraped
-
 ### Java Backend Tech Lead - Production Systems & Architecture
 
 - **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Java-Backend-Tech-Lead_R0340541](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Java-Backend-Tech-Lead_R0340541)
@@ -171,12 +141,6 @@
 ### Java Developer | Build Systems That Guide Aircraft, Not Ads
 
 - **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Java-Developer_R0333971](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Java-Developer_R0333971)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### System Administrator Virtualization
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/System-Administrator-Virtualization_R0340679](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/System-Administrator-Virtualization_R0340679)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -205,4 +169,4 @@
 - **Status**: scraped
 
 ---
-_Generated at 2026-11-01T12:08:39Z_
+_Generated at 2026-11-02T13:57:40Z_
