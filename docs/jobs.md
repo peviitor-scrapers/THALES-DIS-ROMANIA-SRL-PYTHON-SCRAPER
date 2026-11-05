@@ -8,9 +8,9 @@
 | Brand | Thales |
 | Website | https://www.thalesgroup.com |
 | Career | https://careers.thalesgroup.com/global/en/romania-search-jobs |
-| LastScraped | 2026-11-04 |
+| LastScraped | 2026-11-05 |
 
-## Jobs (35)
+## Jobs (37)
 
 ### Java Software Engineer - Naval Business
 
@@ -24,12 +24,6 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### Enabling SRE — Bucharest Sovereign Cloud Hub
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Enabling-SRE_R0332892](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Enabling-SRE_R0332892)
-- **Location**: Bucharest
-- **Status**: scraped
-
 ### Data Engineer | Pipelines With a Mission (AI Track Inside)
 
 - **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Data-Engineer_R0333978](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Data-Engineer_R0333978)
@@ -39,12 +33,6 @@
 ### Delivery Manager | Run Programs That Outlast Product Cycles
 
 - **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Delivery-Manager_R0333985](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Delivery-Manager_R0333985)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### Data SRE — Bucharest Sovereign Cloud Hub
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Data-SRE_R0332890](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Data-SRE_R0332890)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -120,12 +108,6 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### System Administrator Virtualization
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/System-Administrator-Virtualization_R0340679](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/System-Administrator-Virtualization_R0340679)
-- **Location**: Bucharest
-- **Status**: scraped
-
 ### Python AI Agent Engineer (Mid-level)
 
 - **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Python-AI-Agent-Engineer-Mid-level_R0338175](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Python-AI-Agent-Engineer-Mid-level_R0338175)
@@ -198,12 +180,6 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### Junior Fullstack Software Developer with French (Java & Angular)
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Junior-Fullstack-Software-Developer-with-French-Java-Angular_R0345666](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Junior-Fullstack-Software-Developer-with-French-Java-Angular_R0345666)
-- **Location**: Bucharest
-- **Status**: scraped
-
 ### Senior Product Owner with French
 
 - **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Senior-Product-Owner-with-French_R0346592](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Senior-Product-Owner-with-French_R0346592)
@@ -216,11 +192,47 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
+### Junior Fullstack Software Developer with French (Java & Angular)
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Junior-Fullstack-Software-Developer-with-French-Java-Angular_R0345666](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Junior-Fullstack-Software-Developer-with-French-Java-Angular_R0345666)
+- **Location**: Bucharest
+- **Status**: scraped
+
 ### Junior Network Security Engineer
 
 - **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Junior-Network-Security-Engineer_R0346129](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Junior-Network-Security-Engineer_R0346129)
 - **Location**: Bucharest
 - **Status**: scraped
 
+### Identity and Access Management
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Identity-and-Access-Management_R0346135](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Identity-and-Access-Management_R0346135)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### Data engineer
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Data-engineer_R0346225](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Data-engineer_R0346225)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### Operational Security  Access Administrator
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Operational-Security-Access-Administrator_R0346130](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Operational-Security-Access-Administrator_R0346130)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### Senior AI Engineer
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Senior-AI-Engineer_R0346219](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Senior-AI-Engineer_R0346219)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### Data SRE — Bucharest Sovereign Cloud Hub
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Data-SRE_R0332890](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Data-SRE_R0332890)
+- **Location**: Bucharest
+- **Status**: scraped
+
 ---
-_Generated at 2026-11-04T13:21:25Z_
+_Generated at 2026-11-05T13:35:14Z_
