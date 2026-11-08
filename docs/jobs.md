@@ -8,21 +8,9 @@
 | Brand | Thales |
 | Website | https://www.thalesgroup.com |
 | Career | https://careers.thalesgroup.com/global/en/romania-search-jobs |
-| LastScraped | 2026-11-07 |
+| LastScraped | 2026-11-08 |
 
-## Jobs (37)
-
-### C++ Software Engineer - Defence Naval Business
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/C-Software-Engineer_R0190603](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/C-Software-Engineer_R0190603)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### HR Business Partner
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/HR-Business-Partner_R0333338](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/HR-Business-Partner_R0333338)
-- **Location**: Bucharest
-- **Status**: scraped
+## Jobs (31)
 
 ### Java Software Engineer - Naval Business
 
@@ -30,9 +18,9 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### MID FullStack Java & Angular (B1 French) – Shape Global Innovation
+### C++ Software Engineer - Defence Naval Business
 
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/MID-FullStack-Java-Angular-B1-French_R0331165](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/MID-FullStack-Java-Angular-B1-French_R0331165)
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/C-Software-Engineer_R0190603](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/C-Software-Engineer_R0190603)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -48,15 +36,9 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### Product Owner | Your Backlog Guides Air Traffic
+### DevOps Engineer | Ship Software That Can't Afford to Break
 
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Product-Owner_R0333984](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Product-Owner_R0333984)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### AI / Machine Learning Engineer | Models That Guide Missions, Not Ads
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/AI-Machine-Learning-Engineer_R0333980](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/AI-Machine-Learning-Engineer_R0333980)
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/DevOps-Engineer_R0333964](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/DevOps-Engineer_R0333964)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -66,9 +48,9 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### DevOps Engineer | Ship Software That Can't Afford to Break
+### Product Owner | Your Backlog Guides Air Traffic
 
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/DevOps-Engineer_R0333964](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/DevOps-Engineer_R0333964)
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Product-Owner_R0333984](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Product-Owner_R0333984)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -81,6 +63,12 @@
 ### QA Automation Engineer | Break It Before the World Does
 
 - **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/QA-Automation-Engineer_R0333983](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/QA-Automation-Engineer_R0333983)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### MID FullStack Java & Angular (B1 French) – Shape Global Innovation
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/MID-FullStack-Java-Angular-B1-French_R0331165](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/MID-FullStack-Java-Angular-B1-French_R0331165)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -192,9 +180,9 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### Operational Security  Access Administrator
+### Junior Network Security Engineer
 
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Operational-Security-Access-Administrator_R0346130](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Operational-Security-Access-Administrator_R0346130)
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Junior-Network-Security-Engineer_R0346129](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Junior-Network-Security-Engineer_R0346129)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -210,29 +198,5 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### Technical Lead (Government / Defence Satellite Communications)
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Technical-Lead-Government-Defence-Satellite-Communications_R0342971](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Technical-Lead-Government-Defence-Satellite-Communications_R0342971)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### Junior Network Security Engineer
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Junior-Network-Security-Engineer_R0346129](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Junior-Network-Security-Engineer_R0346129)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### IVQ Infrastructure Engineer (NATO Project)
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/IVQ-Infrastructure-Engineer-NATO-Project_R0337371](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/IVQ-Infrastructure-Engineer-NATO-Project_R0337371)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### IVQ NetOps Engineer (NATO Project)
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/IVQ-NetOps-Engineer-NATO-Project_R0337428](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/IVQ-NetOps-Engineer-NATO-Project_R0337428)
-- **Location**: Bucharest
-- **Status**: scraped
-
 ---
-_Generated at 2026-11-07T11:58:48Z_
+_Generated at 2026-11-08T12:18:07Z_
