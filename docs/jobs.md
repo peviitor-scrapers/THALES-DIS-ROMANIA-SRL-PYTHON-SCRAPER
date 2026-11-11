@@ -8,9 +8,9 @@
 | Brand | Thales |
 | Website | https://www.thalesgroup.com |
 | Career | https://careers.thalesgroup.com/global/en/romania-search-jobs |
-| LastScraped | 2026-11-10 |
+| LastScraped | 2026-11-11 |
 
-## Jobs (37)
+## Jobs (36)
 
 ### C++ Software Engineer - Defence Naval Business
 
@@ -72,15 +72,9 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### Infrastructure Engineer (with DevOps skills)
+### System Product Owner
 
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Infrastructure-Engineer-with-DevOps-skills_R0336201](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Infrastructure-Engineer-with-DevOps-skills_R0336201)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### Product Owner - AI Software Solutions
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Product-Owner_R0340266](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Product-Owner_R0340266)
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/System-Product-Owner_R0343195](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/System-Product-Owner_R0343195)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -90,15 +84,9 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### Engineering Delivery Manager
+### Product Owner - AI Software Solutions
 
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Engineering-Delivery-Manager_R0342967](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Engineering-Delivery-Manager_R0342967)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### System Product Owner
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/System-Product-Owner_R0343195](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/System-Product-Owner_R0343195)
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Product-Owner_R0340266](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Product-Owner_R0340266)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -108,15 +96,15 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### Java Developer | Build Systems That Guide Aircraft, Not Ads
+### Engineering Delivery Manager
 
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Java-Developer_R0333971](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Java-Developer_R0333971)
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Engineering-Delivery-Manager_R0342967](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Engineering-Delivery-Manager_R0342967)
 - **Location**: Bucharest
 - **Status**: scraped
 
-### Senior Network Administrator with French
+### Java Developer | Build Systems That Guide Aircraft, Not Ads
 
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Senior-Network-Administrator-with-French_R0314433](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Senior-Network-Administrator-with-French_R0314433)
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Java-Developer_R0333971](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Java-Developer_R0333971)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -126,9 +114,9 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### Operational Security  Access Administrator
+### Events & Exhibitions Manager, Northern & Central Europe
 
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Operational-Security-Access-Administrator_R0346130](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Operational-Security-Access-Administrator_R0346130)
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Events-Exhibitions-Manager-Northern-Central-Europe_R0342736](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Events-Exhibitions-Manager-Northern-Central-Europe_R0342736)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -141,6 +129,12 @@
 ### Identity and Access Management
 
 - **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Identity-and-Access-Management_R0346135](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Identity-and-Access-Management_R0346135)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### Operational Security  Access Administrator
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Operational-Security-Access-Administrator_R0346130](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Operational-Security-Access-Administrator_R0346130)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -186,21 +180,15 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### Senior Data Security Sales Engineer
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Senior-Data-Security-Sales-Engineer_R0344733](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Senior-Data-Security-Sales-Engineer_R0344733)
-- **Location**: Bucharest
-- **Status**: scraped
-
 ### Software Discipline Manager
 
 - **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Software-Discipline-Manager_R0346048](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Software-Discipline-Manager_R0346048)
 - **Location**: Bucharest
 - **Status**: scraped
 
-### Network SRE — Bucharest Sovereign Cloud Hub
+### Senior Data Security Sales Engineer
 
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Network-SRE_R0332896](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Network-SRE_R0332896)
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Senior-Data-Security-Sales-Engineer_R0344733](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Senior-Data-Security-Sales-Engineer_R0344733)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -210,21 +198,9 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### System Integration & Test Engineer (IVVQ) | The Last Line Before Software Meets Reality
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/System-Integration-Test-Engineer-IVVQ_R0333982](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/System-Integration-Test-Engineer-IVVQ_R0333982)
-- **Location**: Bucharest
-- **Status**: scraped
-
 ### Data Engineer Databricks
 
 - **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Data-Engineer-Databricks_R0346872](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Data-Engineer-Databricks_R0346872)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### Thales Technology Internship: Software Development, Testing & IT Operations
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Thales-Technology-Internship-Software-Development-Testing-IT-Operations_R0346859](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Thales-Technology-Internship-Software-Development-Testing-IT-Operations_R0346859)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -234,5 +210,23 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
+### System Integration & Test Engineer (IVVQ) | The Last Line Before Software Meets Reality
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/System-Integration-Test-Engineer-IVVQ_R0333982](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/System-Integration-Test-Engineer-IVVQ_R0333982)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### Network SRE — Bucharest Sovereign Cloud Hub
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Network-SRE_R0332896](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Network-SRE_R0332896)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### Thales Technology Internship: Software Development, Testing & IT Operations
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Thales-Technology-Internship-Software-Development-Testing-IT-Operations_R0346859](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Thales-Technology-Internship-Software-Development-Testing-IT-Operations_R0346859)
+- **Location**: Bucharest
+- **Status**: scraped
+
 ---
-_Generated at 2026-11-10T13:51:17Z_
+_Generated at 2026-11-11T13:02:03Z_
