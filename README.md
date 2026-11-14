@@ -19,7 +19,7 @@ The project automates the daily collection of THALES DIS ROMANIA S.R.L. jobs in 
 
 ## Features
 
-- Extracts jobs from the Thales careers Phenom board (`?country=Romania` filter)
+- Extracts active Romania jobs from the Workday search (`locationCountry=Romania`), with the Phenom board as fallback
 - Additional ANOFM jobs via CIF
 - Validates the company via ANAF (CUI, active/inactive status, full address) with CUIScan fallback
 - **ANAF cache** — does not hit the APIs on every scrape

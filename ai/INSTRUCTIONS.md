@@ -6,7 +6,9 @@ This scraper extracts job listings for **THALES DIS ROMANIA S.R.L.** (CIF
 `37180822`) from the Thales Phenom-powered careers board (Romania search) and
 publishes them to peviitor.ro via the v1 API (`https://api.peviitor.ro/v1`).
 
-Target: `https://careers.thalesgroup.com/global/en/romania-search-jobs`
+Target: `https://thales.wd3.myworkdayjobs.com/en-US/Careers?locationCountry=f2e609fe92974a55a05fc1cdc2852122`
+
+Fallback: `https://careers.thalesgroup.com/global/en/romania-search-jobs`
 
 ## Model Schemas
 

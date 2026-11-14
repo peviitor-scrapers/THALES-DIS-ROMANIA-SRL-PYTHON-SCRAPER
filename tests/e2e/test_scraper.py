@@ -1,8 +1,9 @@
-"""End-to-end test: scrape the real THALES DIS ROMANIA S.R.L. Phenom board.
+"""End-to-end test: scrape the real THALES DIS ROMANIA S.R.L. board.
 
-Thales publishes Romania jobs on the Phenom-powered career site
-(careers.thalesgroup.com). Skips (rather than fails) when the board is
-unreachable, so that CI does not break on transient network issues.
+Thales publishes Romania jobs on Workday (thales.wd3.myworkdayjobs.com),
+with the Phenom career site (careers.thalesgroup.com) as fallback. Skips
+(rather than fails) when both are unreachable, so CI does not break on
+transient network issues.
 """
 
 import socket

@@ -1,5 +1,6 @@
-"""Unit tests for the Phenom board parser."""
+"""Unit tests for the Phenom and Workday board parsers."""
 
+import datetime
 import json
 
 from scraper import index
@@ -66,6 +67,26 @@ def test_build_job_url_no_separator():
     assert url == DETAILS_PREFIX + "HR-Business-Partner_R0333338"
 
 
+def test_build_job_url_prefers_apply_url_slug():
+    url = index.build_job_url(
+        "IVQ Infrastructure Engineer (NATO Project)",
+        "R0337371",
+        "https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest/"
+        "IVQ-Operations-Engineer--NATO-Project-_R0337371/apply",
+    )
+    assert url == DETAILS_PREFIX + "IVQ-Operations-Engineer--NATO-Project-_R0337371"
+
+
+def test_build_job_url_keeps_workday_revision_suffix():
+    url = index.build_job_url(
+        "C++ Software Engineer - Defence Naval Business",
+        "R0190603",
+        "https://thales.wd3.myworkdayjobs.com/Careers/job/Bucharest/"
+        "C-C---Software-Engineer---Defence-Naval-Business_R0190603-1/apply",
+    )
+    assert url == DETAILS_PREFIX + "C-C---Software-Engineer---Defence-Naval-Business_R0190603-1"
+
+
 def test_extract_location_takes_first_token():
     assert index._extract_location("Bucharest, 060071") == ["Bucharest"]
     assert index._extract_location("Bucharest Orhideea") == ["Bucharest Orhideea"]
@@ -86,7 +107,7 @@ def test_parse_api_jobs():
     assert len(jobs) == 2
     assert jobs[0]["title"] == "Team Manager - Software Engineering"
     assert jobs[0]["url"] == DETAILS_PREFIX + "Team-Manager_R0330940"
-    assert jobs[1]["url"] == DETAILS_PREFIX + "C-Software-Engineer_R0330941"
+    assert jobs[1]["url"] == DETAILS_PREFIX + "Cpp-Engineer_R0330941"
     assert jobs[0]["location"] == ["Bucharest"]
     assert jobs[0]["date"] == SAMPLE_JOB_1["postedDate"]
 
@@ -100,10 +121,55 @@ def test_parse_api_jobs_keeps_duplicate_rows():
 def test_scrape_all_listings_deduplicates(monkeypatch):
     page_a = _phenom_page_html([SAMPLE_JOB_1, SAMPLE_JOB_2], total_hits=2)
     page_b = _phenom_page_html([SAMPLE_JOB_1], total_hits=2)
+    monkeypatch.setattr(index, "scrape_workday_listings", lambda: [])
     monkeypatch.setattr(index, "fetch_listing", lambda url: page_a if "from=0" in url else page_b)
     jobs = index.scrape_all_listings()
     ids = [j["url"] for j in jobs]
     assert len(ids) == len(set(ids)), "duplicate job URLs found"
+
+
+def test_scrape_all_listings_prefers_workday(monkeypatch):
+    workday_jobs = [{"url": DETAILS_PREFIX + "Only-Workday_R1", "title": "Only Workday",
+                     "location": ["Bucharest"], "date": "2026-11-14T00:00:00.000+0000"}]
+    monkeypatch.setattr(index, "scrape_workday_listings", lambda: workday_jobs)
+    monkeypatch.setattr(index, "scrape_phenom_listings",
+                        lambda: (_ for _ in ()).throw(AssertionError("Phenom fallback used")))
+    assert index.scrape_all_listings() == workday_jobs
+
+
+def test_scrape_workday_listings_paginates_and_uses_external_path(monkeypatch):
+    pages = {
+        0: {"total": 3, "jobPostings": [
+            {"title": "A", "externalPath": "/job/Bucharest/A_R1",
+             "locationsText": "Bucharest", "postedOn": "Posted Today"},
+            {"title": "B", "externalPath": "/job/Bucharest/B_R2",
+             "locationsText": "Bucharest", "postedOn": "Posted 3 Days Ago"},
+        ]},
+        20: {"total": 3, "jobPostings": [
+            {"title": "C", "externalPath": "/job/Cluj-Napoca/C_R3",
+             "locationsText": "Cluj-Napoca", "postedOn": "Posted Yesterday"},
+        ]},
+    }
+    monkeypatch.setattr(index, "fetch_workday_page", lambda offset: pages[offset])
+    monkeypatch.setattr(index.time, "sleep", lambda _: None)
+
+    jobs = index.scrape_workday_listings()
+
+    assert len(jobs) == 3
+    assert [j["url"] for j in jobs] == [
+        DETAILS_PREFIX + "A_R1",
+        DETAILS_PREFIX + "B_R2",
+        DETAILS_PREFIX + "C_R3",
+    ]
+    assert jobs[2]["location"] == ["Cluj-Napoca"]
+
+
+def test_workday_posted_date_relative():
+    now = datetime.datetime(2026, 11, 14, tzinfo=datetime.timezone.utc)
+    assert index._workday_posted_date("Posted Today", now) == "2026-11-14T00:00:00.000+0000"
+    assert index._workday_posted_date("Posted Yesterday", now) == "2026-11-13T00:00:00.000+0000"
+    assert index._workday_posted_date("Posted 3 Days Ago", now) == "2026-11-11T00:00:00.000+0000"
+    assert index._workday_posted_date("Posted 30+ Days Ago", now) == "2026-10-15T00:00:00.000+0000"
 
 
 def test_parse_api_jobs_empty():

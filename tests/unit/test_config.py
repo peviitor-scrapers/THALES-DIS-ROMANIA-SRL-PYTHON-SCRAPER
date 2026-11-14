@@ -39,6 +39,9 @@ def test_scraper_config_shape(scraper_config):
     assert scraper_config["apiPath"] == "/romania-search-jobs"
     assert "myworkdayjobs.com" in scraper_config["jobDetailsPrefix"]
     assert "/en-US/Careers/details/" in scraper_config["jobDetailsPrefix"]
+    assert "myworkdayjobs.com" in scraper_config["workdaySearchUrl"]
+    assert scraper_config["workdayCountryFacet"]
+    assert scraper_config["workdayPageSize"] > 0
 
 
 def test_configs_are_json_files():

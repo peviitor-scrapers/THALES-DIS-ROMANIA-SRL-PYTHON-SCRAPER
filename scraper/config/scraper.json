@@ -2,5 +2,8 @@
   "apiBase": "https://careers.thalesgroup.com/global/en",
   "apiPath": "/romania-search-jobs",
   "department": "",
-  "jobDetailsPrefix": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/"
+  "jobDetailsPrefix": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/",
+  "workdaySearchUrl": "https://thales.wd3.myworkdayjobs.com/wday/cxs/thales/Careers/jobs",
+  "workdayCountryFacet": "f2e609fe92974a55a05fc1cdc2852122",
+  "workdayPageSize": 20
 }
