@@ -8,7 +8,7 @@
 | Brand | Thales |
 | Website | https://www.thalesgroup.com |
 | Career | https://careers.thalesgroup.com/global/en/romania-search-jobs |
-| LastScraped | 2026-11-14 |
+| LastScraped | 2026-11-15 |
 
 ## Jobs (39)
 
@@ -247,4 +247,4 @@
 - **Status**: scraped
 
 ---
-_Generated at 2026-11-14T12:35:45Z_
+_Generated at 2026-11-15T13:01:33Z_
