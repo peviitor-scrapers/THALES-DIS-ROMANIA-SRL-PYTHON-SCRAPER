@@ -8,9 +8,9 @@
 | Brand | Thales |
 | Website | https://www.thalesgroup.com |
 | Career | https://careers.thalesgroup.com/global/en/romania-search-jobs |
-| LastScraped | 2026-11-16 |
+| LastScraped | 2026-11-17 |
 
-## Jobs (34)
+## Jobs (39)
 
 ### Java Software Engineer - Naval Business
 
@@ -114,12 +114,6 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### Identity and Access Management
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Identity-and-Access-Management_R0346135](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Identity-and-Access-Management_R0346135)
-- **Location**: Bucharest
-- **Status**: scraped
-
 ### Operational Security  Access Administrator
 
 - **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Operational-Security--Access-Administrator_R0346130](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Operational-Security--Access-Administrator_R0346130)
@@ -144,27 +138,27 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### System Integration & Test Engineer (IVVQ) | The Last Line Before Software Meets Reality
+### Technical Lead (Government / Defence Satellite Communications)
 
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/System-Integration---Test-Engineer--IVVQ----The-Last-Line-Before-Software-Meets-Reality_R0333982](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/System-Integration---Test-Engineer--IVVQ----The-Last-Line-Before-Software-Meets-Reality_R0333982)
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Technical-Lead--Government---Defence-Satellite-Communications-_R0342971](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Technical-Lead--Government---Defence-Satellite-Communications-_R0342971)
 - **Location**: Bucharest
 - **Status**: scraped
 
-### Database Engineer
+### Junior Network Security Engineer
 
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Database-Engineer_R0340640-1](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Database-Engineer_R0340640-1)
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Junior-Network-Security-Engineer_R0346129](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Junior-Network-Security-Engineer_R0346129)
 - **Location**: Bucharest
 - **Status**: scraped
 
-### Data Engineer Databricks
+### IVQ Infrastructure Engineer (NATO Project)
 
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Data-Engineer-Databricks_R0346872](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Data-Engineer-Databricks_R0346872)
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/IVQ-Operations-Engineer--NATO-Project-_R0337371](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/IVQ-Operations-Engineer--NATO-Project-_R0337371)
 - **Location**: Bucharest
 - **Status**: scraped
 
-### Network SRE — Bucharest Sovereign Cloud Hub
+### IVQ NetOps Engineer (NATO Project)
 
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Network-SRE---Bucharest-Sovereign-Cloud-Hub_R0332896](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Network-SRE---Bucharest-Sovereign-Cloud-Hub_R0332896)
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/IVQ-NetOps-Engineer--NATO-Project-_R0337428](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/IVQ-NetOps-Engineer--NATO-Project-_R0337428)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -174,9 +168,45 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
+### Data Engineer Databricks
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Data-Engineer-Databricks_R0346872](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Data-Engineer-Databricks_R0346872)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### Database Engineer
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Database-Engineer_R0340640-1](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Database-Engineer_R0340640-1)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### System Integration & Test Engineer (IVVQ) | The Last Line Before Software Meets Reality
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/System-Integration---Test-Engineer--IVVQ----The-Last-Line-Before-Software-Meets-Reality_R0333982](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/System-Integration---Test-Engineer--IVVQ----The-Last-Line-Before-Software-Meets-Reality_R0333982)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### Network SRE — Bucharest Sovereign Cloud Hub
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Network-SRE---Bucharest-Sovereign-Cloud-Hub_R0332896](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Network-SRE---Bucharest-Sovereign-Cloud-Hub_R0332896)
+- **Location**: Bucharest
+- **Status**: scraped
+
 ### Thales Technology Internship: Software Development, Testing & IT Operations
 
 - **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Thales-Technology-Internship--Software-Development--Testing---IT-Operations_R0346859](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Thales-Technology-Internship--Software-Development--Testing---IT-Operations_R0346859)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### Sales Manager (Civil Identity, Border & Travel, Public Security Solutions)
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Sales-Manager--Civil-Identity--Border---Travel--Public-Security-Solutions-_R0338193](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Sales-Manager--Civil-Identity--Border---Travel--Public-Security-Solutions-_R0338193)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### Senior Fullstack Developer (Java/Spring Boot/React) – Build Real Time Inland & Maritime Tracking Systems
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Senior-Fullstack-Developer--Java-Spring-Boot-React----Build-Real-Time-Inland---Maritime-Tracking-Systems_R0347501](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Senior-Fullstack-Developer--Java-Spring-Boot-React----Build-Real-Time-Inland---Maritime-Tracking-Systems_R0347501)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -186,15 +216,9 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### Software Discipline Manager
+### Identity and Access Management
 
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Software-Discipline-Manager_R0346048](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Software-Discipline-Manager_R0346048)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### Sales Manager (Civil Identity, Border & Travel, Public Security Solutions)
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Sales-Manager--Civil-Identity--Border---Travel--Public-Security-Solutions-_R0338193](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Sales-Manager--Civil-Identity--Border---Travel--Public-Security-Solutions-_R0338193)
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Identity-and-Access-Management_R0346135](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Identity-and-Access-Management_R0346135)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -210,11 +234,17 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### Senior Fullstack Developer (Java/Spring Boot/React) – Build Real Time Inland & Maritime Tracking Systems
+### Software Discipline Manager
 
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Senior-Fullstack-Developer--Java-Spring-Boot-React----Build-Real-Time-Inland---Maritime-Tracking-Systems_R0347501](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Senior-Fullstack-Developer--Java-Spring-Boot-React----Build-Real-Time-Inland---Maritime-Tracking-Systems_R0347501)
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Software-Discipline-Manager_R0346048](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Software-Discipline-Manager_R0346048)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### Fullstack Developer – ECO Application (Java / React)
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Fullstack-Developer---ECO-Application--Java---React-_R0347719-1](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Fullstack-Developer---ECO-Application--Java---React-_R0347719-1)
 - **Location**: Bucharest
 - **Status**: scraped
 
 ---
-_Generated at 2026-11-16T14:05:45Z_
+_Generated at 2026-11-17T14:59:30Z_
