@@ -8,7 +8,7 @@
 | Brand | Thales |
 | Website | https://www.thalesgroup.com |
 | Career | https://careers.thalesgroup.com/global/en/romania-search-jobs |
-| LastScraped | 2026-11-17 |
+| LastScraped | 2026-11-18 |
 
 ## Jobs (39)
 
@@ -75,12 +75,6 @@
 ### HR Business Partner
 
 - **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/HR-Business-Partner_R0333338](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/HR-Business-Partner_R0333338)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### System Product Owner
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/System-Product-Owner_R0343195](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/System-Product-Owner_R0343195)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -246,5 +240,11 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
+### System Product Owner
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/System-Product-Owner_R0343195](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/System-Product-Owner_R0343195)
+- **Location**: Bucharest
+- **Status**: scraped
+
 ---
-_Generated at 2026-11-17T14:59:30Z_
+_Generated at 2026-11-18T14:40:00Z_
