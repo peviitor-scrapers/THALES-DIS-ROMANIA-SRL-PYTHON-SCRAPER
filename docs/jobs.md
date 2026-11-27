@@ -8,7 +8,7 @@
 | Brand | Thales |
 | Website | https://www.thalesgroup.com |
 | Career | https://careers.thalesgroup.com/global/en/romania-search-jobs |
-| LastScraped | 2026-11-26 |
+| LastScraped | 2026-11-27 |
 
 ## Jobs (35)
 
@@ -84,15 +84,21 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### Events & Exhibitions Manager, Northern & Central Europe
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Events---Exhibitions-Manager--Northern---Central-Europe_R0342736](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Events---Exhibitions-Manager--Northern---Central-Europe_R0342736)
-- **Location**: Bucharest
-- **Status**: scraped
-
 ### Operational Security  Access Administrator
 
 - **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Operational-Security--Access-Administrator_R0346130](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Operational-Security--Access-Administrator_R0346130)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### Technical Lead (Government / Defence Satellite Communications)
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Technical-Lead--Government---Defence-Satellite-Communications-_R0342971](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Technical-Lead--Government---Defence-Satellite-Communications-_R0342971)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### IVQ Infrastructure Engineer (NATO Project)
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/IVQ-Operations-Engineer--NATO-Project-_R0337371](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/IVQ-Operations-Engineer--NATO-Project-_R0337371)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -114,45 +120,27 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### Technical Lead (Government / Defence Satellite Communications)
+### Events & Exhibitions Manager, Northern & Central Europe
 
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Technical-Lead--Government---Defence-Satellite-Communications-_R0342971](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Technical-Lead--Government---Defence-Satellite-Communications-_R0342971)
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Events---Exhibitions-Manager--Northern---Central-Europe_R0342736](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Events---Exhibitions-Manager--Northern---Central-Europe_R0342736)
 - **Location**: Bucharest
 - **Status**: scraped
 
-### IVQ Infrastructure Engineer (NATO Project)
+### Identity and Access Management
 
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/IVQ-Operations-Engineer--NATO-Project-_R0337371](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/IVQ-Operations-Engineer--NATO-Project-_R0337371)
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Identity-and-Access-Management_R0346135](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Identity-and-Access-Management_R0346135)
 - **Location**: Bucharest
 - **Status**: scraped
 
-### QA Automation Engineer | Break It Before the World Does
+### Engineering Delivery Manager with French
 
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/QA-Automation-Engineer---Break-It-Before-the-World-Does_R0333983](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/QA-Automation-Engineer---Break-It-Before-the-World-Does_R0333983)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### Database Engineer
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Database-Engineer_R0340640-1](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Database-Engineer_R0340640-1)
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Engineering-Delivery-Manager_R0342077](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Engineering-Delivery-Manager_R0342077)
 - **Location**: Bucharest
 - **Status**: scraped
 
 ### System Integration & Test Engineer (IVVQ) | The Last Line Before Software Meets Reality
 
 - **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/System-Integration---Test-Engineer--IVVQ----The-Last-Line-Before-Software-Meets-Reality_R0333982](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/System-Integration---Test-Engineer--IVVQ----The-Last-Line-Before-Software-Meets-Reality_R0333982)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### Thales Technology Internship: Software Development, Testing & IT Operations
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Thales-Technology-Internship--Software-Development--Testing---IT-Operations_R0346859](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Thales-Technology-Internship--Software-Development--Testing---IT-Operations_R0346859)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### Software Discipline Manager
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Software-Discipline-Manager_R0346048](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Software-Discipline-Manager_R0346048)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -168,21 +156,33 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
+### Database Engineer
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Database-Engineer_R0340640-1](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Database-Engineer_R0340640-1)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### QA Automation Engineer | Break It Before the World Does
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/QA-Automation-Engineer---Break-It-Before-the-World-Does_R0333983](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/QA-Automation-Engineer---Break-It-Before-the-World-Does_R0333983)
+- **Location**: Bucharest
+- **Status**: scraped
+
+### Thales Technology Internship: Software Development, Testing & IT Operations
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Thales-Technology-Internship--Software-Development--Testing---IT-Operations_R0346859](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Thales-Technology-Internship--Software-Development--Testing---IT-Operations_R0346859)
+- **Location**: Bucharest
+- **Status**: scraped
+
 ### Senior Data Security Sales Engineer
 
 - **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Senior-Data-Security-Sales-Engineer_R0344733](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Senior-Data-Security-Sales-Engineer_R0344733)
 - **Location**: Bucharest
 - **Status**: scraped
 
-### Identity and Access Management
+### Software Discipline Manager
 
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Identity-and-Access-Management_R0346135](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Identity-and-Access-Management_R0346135)
-- **Location**: Bucharest
-- **Status**: scraped
-
-### Engineering Delivery Manager with French
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Engineering-Delivery-Manager_R0342077](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Engineering-Delivery-Manager_R0342077)
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Software-Discipline-Manager_R0346048](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Software-Discipline-Manager_R0346048)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -210,17 +210,17 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### Data engineer
-
-- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Data-engineer_R0346226](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Data-engineer_R0346226)
-- **Location**: Bucharest
-- **Status**: scraped
-
 ### Application Support Analyst/Engineer with French
 
 - **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Application-Support-Engineer-with-French_R0347694](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Application-Support-Engineer-with-French_R0347694)
 - **Location**: Bucharest
 - **Status**: scraped
 
+### Data engineer
+
+- **URL**: [https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Data-engineer_R0346226](https://thales.wd3.myworkdayjobs.com/en-US/Careers/details/Data-engineer_R0346226)
+- **Location**: Bucharest
+- **Status**: scraped
+
 ---
-_Generated at 2026-11-26T15:53:18Z_
+_Generated at 2026-11-27T15:41:43Z_
